@@ -438,7 +438,7 @@ def parse_all_schematics(root_sch_path, exclude_symbols=[], exclude_libs=[]):
 
 
 
-root_sch_path = os.path.join(os.getcwd(),"dNHPT_neo.kicad_sch")
+root_sch_path = os.path.join(os.getcwd(),"testProject.kicad_sch")
 comps = parse_all_schematics(root_sch_path, ['+3V0_MCU'],  ['power'])
 
 
