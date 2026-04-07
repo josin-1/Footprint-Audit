@@ -1,7 +1,7 @@
 # KiCAD Footprint-Audit
 An automatic KiCAD Footprint and Symbol Audit Creator
 
-The plan for this project is too have a KiCAD Plugin that creates an interactive HTML file (maybe even having a built in measurement tool), that includes the footprint, symbol and pictures of the datasheet, for every component on the pcb, so they can be crosschecked, before sending the pcb to production.
+The plan for this project is to have a KiCAD Plugin that creates an interactive HTML file (maybe even having a built in measurement tool), that includes the footprint, symbol and pictures of the datasheet, for every component on the pcb, so they can be crosschecked, before sending the pcb to production.
 This should make it easier to audit the correctness of the used footprints, and make mistakes easier to spot.
 Necessary pictures from the datasheed would need to be provided manually, and linked in the KiCAD symbol with specific fields.
 
