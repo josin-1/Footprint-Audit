@@ -14,5 +14,5 @@ Usage is too call parse_all_schematics() from schematic_parser.py, which travers
 Afterwards the filename of the root schematic path is taken to open the .kicad_pcb file, where the footprint geometry is saved from.
 At the end duplicate Components will be merged together automatically, preserving each reference value in a string list.  
 
-### Footprint Audit
+### TestProject_KiCAD/Footprint_Audit
 Extended the Parser to output the read KiCAD data into a output.js file. Also written an HTML file, that reads the js file, iterates over all Components, and visualizes them. Currently made the image view work (image data is baked into the js file with base64 encoding), and created Konva Stages for each component, and made it visualize the Symbol (very basic tho) for now. 
