@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<script src="output.js"></script>
+	</header>
+    <body>
+		<style type="text/css">
+			#components {
+				margin: 0px;
+				width: 100%;
+				height: auto;
+			}
+            .component {
+				margin: 0px;
+				width: 100%;
+				height: 300px;
+
+			}
+            .component_title {
+				margin: 5px;
+				width: 100%;
+				height: auto;
+                font-weight: bold;
+			}
+            .component_canvas {
+				margin: 2px;
+				width: calc(25% - 6px);
+				height: 100%;
+                border: 1px solid black;
+                float: left;
+			}
+            .component_image {
+				margin: 2px;
+                display: flex;
+                justify-content: center;
+				width: calc(25% - 6px);
+				height: 100%;
+                border: 1px solid black;
+                float: left;
+                overflow: hidden;
+			}
+            .component_image[src] {
+                display: flex;
+                justify-content: center;
+				margin: 2px;
+				width: calc(25% - 6px);
+				height: auto;
+                border: 1px solid black;
+                float: left;
+                overflow: hidden;
+			}
+            .spacer {
+                clear: both; !for float elements
+				width: 100%;
+                height: 5px;
+			}
+		</style>
+
+		<div id="components"><div>
+		<script type="text/javascript">
+			for (var i = 0; i < components.length; ++i){
+                var component_unique_id = components[i].lib_id + "_" + components[i].val + "_" + components[i].footprint;
+                
+                // Create Component Div
+                var component_div = document.createElement("div");
+                component_div.setAttribute("class", "component");
+                component_div.id = component_unique_id + "_div";
+                document.getElementById("components").appendChild(component_div);
+                
+                // Create Component Title            
+                var component_title = document.createElement("p");
+                component_title.setAttribute("class", "component_title");
+                component_title.innerHTML = components[i].lib_id + " : " + components[i].val
+                document.getElementById(component_div.id).appendChild(component_title);
+                
+                // Create Symbol Canvas
+                var canvas_sym_div = document.createElement("div");
+                canvas_sym_div.setAttribute("class", "component_canvas");
+                canvas_sym_div.id = component_unique_id + "_canvas_sym_div";
+                document.getElementById(component_div.id).appendChild(canvas_sym_div);
+                
+                // Create Footprint Canvas
+                var canvas_fp_div = document.createElement("div");
+                canvas_fp_div.setAttribute("class", "component_canvas");
+                canvas_fp_div.id = component_unique_id + "_canvas_fp_div";
+                document.getElementById(component_div.id).appendChild(canvas_fp_div);
+
+                // Create Symbol Image 
+                var image_sym_div = document.createElement("div");
+                image_sym_div.setAttribute("class", "component_image");
+                image_sym_div.id = component_unique_id + "_image_sym_div";
+                document.getElementById(component_div.id).appendChild(image_sym_div);
+                
+				var newImage = document.createElement('img');
+                newImage.src = components[i].ds_image_sym;
+                newImage.alt = "img could not be loaded!";
+				newImage.style = "width:100%; height:auto; object-fit:contain;"
+                
+				document.getElementById(image_sym_div.id).appendChild(newImage);
+				
+                // Create Footprint Image 
+                var image_fp_div = document.createElement("div");
+                image_fp_div.setAttribute("class", "component_image");
+                image_fp_div.id = component_unique_id + "_image_fp_div";
+                document.getElementById(component_div.id).appendChild(image_fp_div);
+                
+				var newImage = document.createElement('img');
+                newImage.src = components[i].ds_image_fp;
+                newImage.alt = "img could not be loaded!";
+                newImage.style = "width:100%; height:auto; object-fit:contain;"
+
+				document.getElementById(image_fp_div.id).appendChild(newImage);
+				
+                
+                // Add Linebreak and Spacer
+                var linebreak = document.createElement("br");                
+                document.getElementById("components").appendChild(linebreak);
+                
+                
+                var spacer = document.createElement("div");
+                spacer.setAttribute("class", "spacer");
+                document.getElementById("components").appendChild(spacer);
+			}
+		</script>
+    </body>
+
+</html
