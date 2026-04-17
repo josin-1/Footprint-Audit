@@ -15,4 +15,5 @@ Afterwards the filename of the root schematic path is taken to open the .kicad_p
 At the end duplicate Components will be merged together automatically, preserving each reference value in a string list.  
 
 ### TestProject_KiCAD/Footprint_Audit
-Extended the Parser to output the read KiCAD data into a output.js file. Also written an HTML file, that reads the js file, iterates over all Components, and visualizes them. Currently made the image view work (image data is baked into the js file with base64 encoding), and created Konva Stages for each component, and made it visualize the Symbol (very basic tho) for now. 
+The TestProject is a basic KiCAD Project for debugging. Inside theres the project folder "Footprint_Audit", where current work is done.
+Extended the Parser to output the read KiCAD data into a output.js file. Also written an HTML file, that reads the js file, iterates over all Components, and visualizes them. Currently made the image view work (image data is baked into the js file with base64 encoding), and created Konva Stages for each component, and made it visualize the Symbol (very basic tho) for now (also added basic zoom). Currently working on generating the HTML automatically, and inserting the collected data from KiCAD directly into the HTML file.
