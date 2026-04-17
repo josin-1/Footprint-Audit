@@ -1,0 +1,591 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5eafcf29-6cd5-40c1-8dc7-2a5abe9786d3")
+	(paper "A5")
+	(title_block
+		(title "dNHPT neo / Main")
+		(date "2026-02-16")
+		(rev "0")
+		(company "Hochschule Campus Wien")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 119.38 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077da086-8714-4705-a2f6-6df56c5ce6ce")
+	)
+	(wire
+		(pts
+			(xy 76.2 52.07) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b3027c-60f1-480e-b9e5-c591df3641c4")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23842e73-0ac5-48aa-9526-61a598a2eafd")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 87.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3280c77e-729a-4d22-9910-b6bdd1a95114")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400c0c5f-def4-474d-8988-f587cb223ced")
+	)
+	(wire
+		(pts
+			(xy 119.38 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bca570e-a6ae-4e4a-b951-d144ba18b963")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 130.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6191aa46-2b21-46a8-a143-1db940916e5e")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 87.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0f64fc-68f8-4f53-960b-4450d5d58e6c")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf88192-1f29-41b1-bfd9-1b599055947e")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a3d60c-c50c-4f69-b5d8-46f6165c1716")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95278bc9-9124-4a37-ac7f-d1984d6bc606")
+	)
+	(wire
+		(pts
+			(xy 119.38 64.77) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83baa20-39f2-403a-8f60-502143c39be9")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e3ed1f-82b6-4ff2-aafb-1e230f038d74")
+	)
+	(wire
+		(pts
+			(xy 119.38 72.39) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3e8292-8c8e-4016-8a2f-6deed0a36460")
+	)
+	(sheet
+		(at 53.34 45.72)
+		(size 22.86 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d0ea451-a65d-4f9e-afef-b07ad67e5a77")
+		(property "Sheetname" "Display"
+			(at 53.34 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 53.34 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX" input
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0cce3d4-2762-40a2-9539-75a988f56910")
+		)
+		(pin "RX" output
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55a7185b-9d89-474e-8f86-19e1a09b3e13")
+		)
+		(pin "PWR" input
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e655279-5535-4719-bf7a-b38d88a0de10")
+		)
+		(instances
+			(project "TestProj"
+				(path "/5eafcf29-6cd5-40c1-8dc7-2a5abe9786d3"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 44.45)
+		(size 31.75 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28be3ecf-d5c2-4923-b822-826d925b81da")
+		(property "Sheetname" "Microcontroller"
+			(at 87.63 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 87.63 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DISP_RX" input
+			(at 87.63 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0a18919-191b-46eb-8222-33f705f5cb0c")
+		)
+		(pin "SDIO_CK" output
+			(at 87.63 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4fa8ee9-faf8-4abe-ba5e-ba9e8d4f9a63")
+		)
+		(pin "DISP_PWR" output
+			(at 87.63 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87b503d6-63cd-4a04-b984-ade0a3ff932c")
+		)
+		(pin "DISP_TX" output
+			(at 87.63 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a4a2b52-f939-4b92-9025-e677db8590c2")
+		)
+		(pin "SDIO_D0" input
+			(at 87.63 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acd0e3e0-4fa0-43bf-a423-84ed10a56943")
+		)
+		(pin "SDIO_CD" output
+			(at 87.63 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "375bf2d8-f56b-40cf-a031-2366cc89f6e5")
+		)
+		(pin "SDIO_CMD" output
+			(at 87.63 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b51b2421-dcd3-4ef0-be8a-8d2c291dffd8")
+		)
+		(pin "SDIO_LED" output
+			(at 87.63 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f964e074-7514-4efa-a1bb-bc0d5cad4f63")
+		)
+		(pin "USB_D+" bidirectional
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "351f3683-347e-43c6-a1b1-c165e386e9e9")
+		)
+		(pin "USB_D-" bidirectional
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0104e262-0dca-4476-a78b-bc3b74fef775")
+		)
+		(pin "USB_LED_OK" output
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd207a4d-18d7-496e-8755-1ca36dddd36f")
+		)
+		(pin "USB_LED_ERR" output
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c8f2ef3-caed-4936-a868-766f1926a0cf")
+		)
+		(pin "CC2" input
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c124c33b-d2d3-4184-a634-7b1b026ed4d5")
+		)
+		(pin "CC1" input
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d0cd4dc-6576-40ae-b3f5-7ee3d064ad2a")
+		)
+		(instances
+			(project "TestProj"
+				(path "/5eafcf29-6cd5-40c1-8dc7-2a5abe9786d3"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 57.15)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4adb93ef-9847-4ef3-8b4d-3eec27c0f223")
+		(property "Sheetname" "power_supply"
+			(at 130.81 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 130.81 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 130.81 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93467fc7-9bb8-4021-b9ee-21c7935c488d")
+		)
+		(pin "D+" bidirectional
+			(at 130.81 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37356dbc-94b6-4c08-b0bc-5bfab0be5320")
+		)
+		(pin "CC2" output
+			(at 130.81 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f59d733-a9d1-4e3b-8045-f16d2e346809")
+		)
+		(pin "CC1" output
+			(at 130.81 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff950494-8ee9-416d-afdb-df19acfc5f3b")
+		)
+		(pin "LED_OK" input
+			(at 130.81 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cdebe7b-0ee5-456b-b3b2-39a6395e3bb7")
+		)
+		(pin "LED_ERR" input
+			(at 130.81 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f911df4d-8ab3-4bb5-9198-d659c52946cc")
+		)
+		(instances
+			(project "TestProj"
+				(path "/5eafcf29-6cd5-40c1-8dc7-2a5abe9786d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 63.5)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ffc31141-accb-46dc-87e0-623eb661eed2")
+		(property "Sheetname" "SD-Card"
+			(at 53.34 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD-Card.kicad_sch"
+			(at 53.34 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDIO_CD" input
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae4c0a54-4bb1-4371-84ad-babce8a9024f")
+		)
+		(pin "SDIO_CK" input
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ac51785-6333-4eb3-9b76-acf45640a69e")
+		)
+		(pin "SDIO_CMD" input
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1cd0eb16-766b-4556-8e94-e56ba10b5fc7")
+		)
+		(pin "SDIO_LED" input
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6810503-bab4-47a3-9f6d-2cea7013c453")
+		)
+		(pin "SDIO_DO" output
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0851457c-aa15-4012-840e-0ca337417e2f")
+		)
+		(instances
+			(project "TestProj"
+				(path "/5eafcf29-6cd5-40c1-8dc7-2a5abe9786d3"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

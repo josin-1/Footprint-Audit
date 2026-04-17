@@ -1,0 +1,49 @@
+			#components {
+				margin: 0px;
+				width: 100%;
+				height: auto;
+			}
+            .component {
+				margin: 0px;
+				width: 100%;
+				height: 300px;
+
+			}
+            .component_title {
+				margin: 5px;
+				width: 100%;
+				height: auto;
+                font-weight: bold;
+			}
+            .component_canvas {
+				margin: 2px;
+				width: calc(25% - 6px);
+				height: 100%;
+                border: 1px solid black;
+                float: left;
+			}
+            .component_image {
+				margin: 2px;
+                display: flex;
+                justify-content: center;
+				width: calc(25% - 6px);
+				height: 100%;
+                border: 1px solid black;
+                float: left;
+                overflow: hidden;
+			}
+            .component_image[src] {
+                display: flex;
+                justify-content: center;
+				margin: 2px;
+				width: calc(25% - 6px);
+				height: auto;
+                border: 1px solid black;
+                float: left;
+                overflow: hidden;
+			}
+            .spacer {
+                clear: both;
+                width: 100%;
+                height: 5px;
+			}
