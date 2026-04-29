@@ -17,3 +17,5 @@ At the end duplicate Components will be merged together automatically, preservin
 ### TestProject_KiCAD/Footprint_Audit
 The TestProject is a basic KiCAD Project for debugging. Inside theres the project folder "Footprint_Audit", where current work is done.
 Extended the Parser to output the read KiCAD data into a output.js file. Also written an HTML file, that reads the js file, iterates over all Components, and visualizes them. Currently made the image view work (image data is baked into the js file with base64 encoding), and created Konva Stages for each component, and made it visualize the Symbol (very basic tho) for now (also added basic zoom). Currently working on generating the HTML automatically, and inserting the collected data from KiCAD directly into the HTML file.
+Update: I've done some Updates to the JS in the fp_audit_test.html. The printing of the footprint and symbol works great, and also added a prototype for the measurement tool.
+As little gimmick the cursor also changes to 'move' and 'crosshair' now :P
