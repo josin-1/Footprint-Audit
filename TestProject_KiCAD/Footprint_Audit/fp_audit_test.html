@@ -71,7 +71,7 @@
 
 		<div id="components"><div>
 		<script type="text/javascript">
-			const KonvaScaleBy = 1.1;
+			const KonvaScaleBy = 1.05;
 
             const mm2px_scale = 500;
             const fill_background_color = "lightyellow";
@@ -83,13 +83,17 @@
             const fp_strokeWidth = 15;
             const fp_strokeColor_default = "red";
             const fp_strokeColor_SilkS = "white";
-            const fp_strokeColor_Fab = "grey";
+            const fp_strokeColor_Fab = "darkgrey";
 			const fp_strokeColor_CrtYd = "violet";
 			const fp_strokeColor_padNP_THT = "blue";
 			const fp_pinFontSize = 250;
             const fp_SMDpadColor = "red";
             const fp_THTcontactColor = "gold";
 
+            const measurement_line_strokeColor = 'lightgreen';
+            const measurement_line_id = 'MeasurementLine';
+            const measurement_value_fontSize = 200;
+            const measurement_value_id = 'MeasurementValue';
 
             function arcToKonvaProps(S, M, E, thickness = 0) {
                 const cross2D = (a, b) => a.x * b.y - a.y * b.x;
@@ -227,50 +231,65 @@
                                 (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale,
                                 (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale
                             ];
+                            
                             switch (symbol_geometry[i].rotation){
                                 case 0:
                                     points.push(points[0] + symbol_geometry[i].length * mm2px_scale);
                                     points.push(points[1]);
 									var pinText = new Konva.Text({
-										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - sym_pinFontSize,
-                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - sym_pinFontSize/2,
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - symbol_geometry[i].length * mm2px_scale / 2.5,
+                                        width: symbol_geometry[i].length * mm2px_scale,
+                                        height: symbol_geometry[i].length * mm2px_scale / 2.5,
 										text: symbol_geometry[i].number,
-                                        fontSize: sym_pinFontSize
+                                        align: 'center',
+                                        fontSize: symbol_geometry[i].length * mm2px_scale / 2.5
 									});
 									layer.add(pinText);
                                     break;
                                 case 90:
                                     points.push(points[0]);
                                     points.push(points[1] - symbol_geometry[i].length * mm2px_scale);
-									var pinText = new Konva.Text({
-										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - sym_pinFontSize/3,
-                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale + sym_pinFontSize,
+                                    var pinText = new Konva.Text({
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - symbol_geometry[i].length * mm2px_scale / 2.5,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale,
+                                        width: symbol_geometry[i].length * mm2px_scale,
+                                        height: symbol_geometry[i].length * mm2px_scale / 2.5,
 										text: symbol_geometry[i].number,
-                                        fontSize: sym_pinFontSize
+                                        align: 'center',
+                                        fontSize: symbol_geometry[i].length * mm2px_scale / 2.5,
+                                        rotation: 270
 									});
-									layer.add(pinText)
+									layer.add(pinText);
                                     break;
                                 case 180:
                                     points.push(points[0] - symbol_geometry[i].length * mm2px_scale);
                                     points.push(points[1]);
 									var pinText = new Konva.Text({
-										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale + sym_pinFontSize/2,
-                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - sym_pinFontSize/2,
+										x: (stage.width() / 2) + (symbol_geometry[i].position.x - symbol_geometry[i].length) * mm2px_scale,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale,
+                                        width: symbol_geometry[i].length * mm2px_scale,
+                                        height: symbol_geometry[i].length * mm2px_scale / 2.5,
 										text: symbol_geometry[i].number,
-                                        fontSize: sym_pinFontSize
+                                        align: 'center',
+                                        fontSize: symbol_geometry[i].length * mm2px_scale / 2.5
 									});
-									layer.add(pinText)
+									layer.add(pinText);
                                     break;
                                 case 270:
                                     points.push(points[0]);
                                     points.push(points[1] + symbol_geometry[i].length * mm2px_scale);
-									var pinText = new Konva.Text({
-										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - sym_pinFontSize/3,
-                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - sym_pinFontSize,
+                                    var pinText = new Konva.Text({
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale + symbol_geometry[i].length * mm2px_scale,
+                                        width: symbol_geometry[i].length * mm2px_scale,
+                                        height: symbol_geometry[i].length * mm2px_scale / 2.5,
 										text: symbol_geometry[i].number,
-                                        fontSize: sym_pinFontSize
+                                        align: 'center',
+                                        fontSize: symbol_geometry[i].length * mm2px_scale / 2.5,
+                                        rotation: 270
 									});
-									layer.add(pinText)
+									layer.add(pinText);
                                     break;
                             }
                             var line = new Konva.Line({
@@ -841,17 +860,26 @@
                 var isMouseClick = false;
                 
                 sym_stage.on('mousedown', (e) => {
-                    isMouseClick = true;
+                    if (!isMouseClick){
+                        isMouseClick = true;
+                    }
                 });
                 sym_stage.on('mouseup', (e) => {
-                    isMouseClick = false;
+                    if (isMouseClick){
+                        isMouseClick = false;
+                        e.target.getStage().container().style.cursor = 'default';
+                    }
                 });
                 sym_stage.on('mouseleave', (e) => {
-                    isMouseClick = false;
+                    if (isMouseClick){
+                        isMouseClick = false;
+                        e.target.getStage().container().style.cursor = 'default';
+                    }
                 });
                 
                 sym_stage.on('mousemove', (e) => {
                     if (isMouseClick){
+                        e.target.getStage().container().style.cursor = 'move'
                         sym_stage.position({
                             x: sym_stage.position().x + e.evt.movementX,
                             y: sym_stage.position().y + e.evt.movementY
@@ -913,40 +941,102 @@
 				var measPointerStart;
                 
                 fp_stage.on('mousedown', (e) => {
-                    isMouseClick = true;
+                    if (!isMouseClick){
+                        isMouseClick = true;
+                    }
                 });
                 fp_stage.on('mouseup', (e) => {
-                    isMouseClick = false;
-					isMeasurement = false;
+                    if (isMouseClick){
+                        isMouseClick = false;
+                        e.target.getStage().container().style.cursor = 'default';
+                    }
                 });
                 fp_stage.on('mouseleave', (e) => {
-                    isMouseClick = false;
-					isMeasurement = false;
+                    if (isMouseClick){
+                        isMouseClick = false;
+                        e.target.getStage().container().style.cursor = 'default';
+                    }
+                    
+                    if (isMeasurement){
+                        isMeasurement = false;
+                        e.target.getStage().container().style.cursor = 'default';
+                        var measurement_line = fp_layer.find('#' + measurement_line_id);
+                        measurement_line[0].destroy();
+                        var measurement_value = fp_layer.find('#' + measurement_value_id);
+                        measurement_value[0].destroy();
+                    }
                 });
                 
                 fp_stage.on('mousemove', (e) => {
                     if (isMouseClick){
+                        e.target.getStage().container().style.cursor = 'move';
                         fp_stage.position({
                             x: fp_stage.position().x + e.evt.movementX,
                             y: fp_stage.position().y + e.evt.movementY
                         });
                     }
 					if (isMeasurement){
-						var measurementX = fp_stage.getPointerPosition().x - measPointerStart.x;
-						var measurementY = fp_stage.getPointerPosition().y - measPointerStart.y;
-						var measurement = (measurementX * measurementX + measurementY *  measurementY) / mm2px_scale / fp_stage.scaleX();
-						console.log(measurement);
+                        e.target.getStage().container().style.cursor = 'crosshair';
+
+						var measurementX = (fp_stage.getRelativePointerPosition().x - measPointerStart.x);
+						var measurementY = (fp_stage.getRelativePointerPosition().y - measPointerStart.y);
+						var measurement = Math.sqrt((measurementX * measurementX) + (measurementY *  measurementY)) / mm2px_scale ;
+
+                        var measurement_line = fp_layer.find('#' + measurement_line_id);
+                        measurement_line[0].attrs.points[2] = fp_stage.getRelativePointerPosition().x;
+                        measurement_line[0].attrs.points[3] = fp_stage.getRelativePointerPosition().y;
+                        measurement_line[0].strokeWidth(measurement * mm2px_scale / 50);
+
+                        var measurement_value = fp_layer.find('#' + measurement_value_id);
+                        measurement_value[0].width(measurement * mm2px_scale);
+                        measurement_value[0].fontSize(measurement_value[0].width() / 3);
+                        measurement_value[0].text(measurement.toFixed(3));
+                        measurement_value[0].rotation(Math.atan2(measurementY, measurementX) * (180 / Math.PI));
+
+                        fp_layer.batchDraw();
 					}
                 });
 				
 				fp_stage.on('dblclick', (e) => {
-					if (!isMeasurement){
-						isMeasurement = true;
-						measPointerStart = fp_stage.getPointerPosition();
-					}
-					else{
-						isMeasurement = false;
-					}
+                    if (isMeasurement){
+                        e.target.getStage().container().style.cursor = 'default';
+
+                        isMeasurement = false;
+                        var measurement_line = fp_layer.find('#' + measurement_line_id);
+                        measurement_line[0].destroy();
+                        var measurement_value = fp_layer.find('#' + measurement_value_id);
+                        measurement_value[0].destroy();
+                    } else{
+                        e.target.getStage().container().style.cursor = 'crosshair';
+
+                        isMeasurement = !isMeasurement;
+                        measPointerStart = fp_stage.getRelativePointerPosition();
+                        var measurement_line = new Konva.Line({
+                            points: [
+                                measPointerStart.x,
+                                measPointerStart.y,
+                                measPointerStart.x,
+                                measPointerStart.y
+                            ],
+                            stroke: measurement_line_strokeColor,
+                            strokeWidth: 0,
+                            id: measurement_line_id
+                        });
+                        fp_layer.add(measurement_line);
+                        var measurement_value = new Konva.Text({
+                            x: measPointerStart.x,
+                            y: measPointerStart.y,
+                            text: '0',
+                            width: 0,
+                            height: 0,
+                            fontSize: 0,
+                            fill: measurement_line_strokeColor,
+                            align: 'center',
+                            id: measurement_value_id
+                        });
+                        fp_layer.add(measurement_value);
+                    }
+                    
                 });
                 
 
@@ -963,6 +1053,7 @@
                 
 				document.getElementById(image_sym_div.id).appendChild(newImage);
 				
+
                 // Create Footprint Image 
                 var image_fp_div = document.createElement("div");
                 image_fp_div.setAttribute("class", "component_image");
