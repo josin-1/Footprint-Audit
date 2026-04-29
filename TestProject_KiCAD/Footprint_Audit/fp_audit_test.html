@@ -71,18 +71,22 @@
 
 		<div id="components"><div>
 		<script type="text/javascript">
-            const KonvaScaleBy = 1.1;
+			const KonvaScaleBy = 1.1;
 
-            const mm2px_scale = 10;
+            const mm2px_scale = 500;
             const fill_background_color = "lightyellow";
             const fill_outline_color = "brown";
-            const symbol_strokeWidth = 2;
+            const symbol_strokeWidth = 15;
+			const sym_pinFontSize = 400
             
-            const fp_bgColor = "black";
-            const fp_strokeWidth = 2;
+            const fp_bgColor = "#778899";
+            const fp_strokeWidth = 15;
             const fp_strokeColor_default = "red";
             const fp_strokeColor_SilkS = "white";
-            const fp_strokeColor_Fab = "violet";
+            const fp_strokeColor_Fab = "grey";
+			const fp_strokeColor_CrtYd = "violet";
+			const fp_strokeColor_padNP_THT = "blue";
+			const fp_pinFontSize = 250;
             const fp_SMDpadColor = "red";
             const fp_THTcontactColor = "gold";
 
@@ -227,18 +231,46 @@
                                 case 0:
                                     points.push(points[0] + symbol_geometry[i].length * mm2px_scale);
                                     points.push(points[1]);
+									var pinText = new Konva.Text({
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - sym_pinFontSize,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - sym_pinFontSize/2,
+										text: symbol_geometry[i].number,
+                                        fontSize: sym_pinFontSize
+									});
+									layer.add(pinText);
                                     break;
                                 case 90:
                                     points.push(points[0]);
                                     points.push(points[1] - symbol_geometry[i].length * mm2px_scale);
+									var pinText = new Konva.Text({
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - sym_pinFontSize/3,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale + sym_pinFontSize,
+										text: symbol_geometry[i].number,
+                                        fontSize: sym_pinFontSize
+									});
+									layer.add(pinText)
                                     break;
                                 case 180:
                                     points.push(points[0] - symbol_geometry[i].length * mm2px_scale);
                                     points.push(points[1]);
+									var pinText = new Konva.Text({
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale + sym_pinFontSize/2,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - sym_pinFontSize/2,
+										text: symbol_geometry[i].number,
+                                        fontSize: sym_pinFontSize
+									});
+									layer.add(pinText)
                                     break;
                                 case 270:
                                     points.push(points[0]);
                                     points.push(points[1] + symbol_geometry[i].length * mm2px_scale);
+									var pinText = new Konva.Text({
+										x: (stage.width() / 2) + symbol_geometry[i].position.x * mm2px_scale - sym_pinFontSize/3,
+                                        y: (stage.height() / 2) - symbol_geometry[i].position.y * mm2px_scale - sym_pinFontSize,
+										text: symbol_geometry[i].number,
+                                        fontSize: sym_pinFontSize
+									});
+									layer.add(pinText)
                                     break;
                             }
                             var line = new Konva.Line({
@@ -248,6 +280,7 @@
                                 strokeWidth: symbol_strokeWidth
                             });
                             layer.add(line);
+							
                             break;
                         default:
                             console.log("ERROR: Undefined Symbol Shape Type: " + symbol_geometry[i].type)
@@ -261,18 +294,31 @@
                         case "FP_Rectangle":
                             var rect = new Konva.Rect({
                                 x: (stage.width() / 2) + footprint_geometry[i].start.x * mm2px_scale,
-                                y: (stage.height() / 2) - footprint_geometry[i].start.y * mm2px_scale,
+                                y: (stage.height() / 2) + footprint_geometry[i].start.y * mm2px_scale,
                                 width: ((stage.width() / 2) + footprint_geometry[i].end.x * mm2px_scale) - ((stage.width() / 2) + footprint_geometry[i].start.x * mm2px_scale),
-                                height: ((stage.height() / 2) - footprint_geometry[i].end.y * mm2px_scale) - ((stage.height() / 2) - footprint_geometry[i].start.y * mm2px_scale),
+                                height: ((stage.height() / 2) + footprint_geometry[i].end.y * mm2px_scale) - ((stage.height() / 2) + footprint_geometry[i].start.y * mm2px_scale),
                                 stroke: fp_strokeColor_default,
                                 strokeWidth: fp_strokeWidth
                             });
                             if (footprint_geometry[i].layer.split(".").length > 1){
                                 if (footprint_geometry[i].layer.split(".")[1] == "SilkS"){
                                     rect.stroke(fp_strokeColor_SilkS);
+									if (footprint_geometry[i].fill_type == "solid"){
+										rect.fill(fp_strokeColor_SilkS);
+									}
+									
                                 }
                                 if (footprint_geometry[i].layer.split(".")[1] == "Fab"){
                                     rect.stroke(fp_strokeColor_Fab);
+									if (footprint_geometry[i].fill_type == "solid"){
+										rect.fill(fp_strokeColor_Fab);
+									}
+                                }
+								if (footprint_geometry[i].layer.split(".")[1] == "CrtYd"){
+                                    rect.stroke(fp_strokeColor_CrtYd);
+									if (footprint_geometry[i].fill_type == "solid"){
+										rect.fill(fp_strokeColor_CrtYd);
+									}
                                 }
                             }
                             layer.add(rect);
@@ -281,28 +327,41 @@
                             var points = []
                             for (var j = 0; j < footprint_geometry[i].points.length; ++j){
                                 points.push((stage.width() / 2) + footprint_geometry[i].points[j].x * mm2px_scale);
-                                points.push((stage.height() / 2) - footprint_geometry[i].points[j].y * mm2px_scale);
+                                points.push((stage.height() / 2) + footprint_geometry[i].points[j].y * mm2px_scale);
                             }
                             var line = new Konva.Line({
                                 points: points,
                                 fillAfterStrokeEnabled: true,
+								closed: true,
                                 stroke: fp_strokeColor_default,
                                 strokeWidth: fp_strokeWidth
                             });
                             if (footprint_geometry[i].layer.split(".").length > 1){
                                 if (footprint_geometry[i].layer.split(".")[1] == "SilkS"){
                                     line.stroke(fp_strokeColor_SilkS);
+									if (footprint_geometry[i].fill_type == "solid"){
+										line.fill(fp_strokeColor_SilkS);
+									}
                                 }
                                 if (footprint_geometry[i].layer.split(".")[1] == "Fab"){
                                     line.stroke(fp_strokeColor_Fab);
+									if (footprint_geometry[i].fill_type == "solid"){
+										line.fill(fp_strokeColor_Fab);
+									}
                                 }
-                            }
+								if (footprint_geometry[i].layer.split(".")[1] == "CrtYd"){
+                                    line.stroke(fp_strokeColor_CrtYd);
+									if (footprint_geometry[i].fill_type == "solid"){
+										line.fill(fp_strokeColor_CrtYd);
+									}
+                                }
+                            }							
                             layer.add(line);
                             break;
                         case "FP_Circle":
                             var circ = new Konva.Circle({
                                 x: (stage.width() / 2) + footprint_geometry[i].center.x * mm2px_scale,
-                                y: (stage.height() / 2) - footprint_geometry[i].center.y * mm2px_scale,
+                                y: (stage.height() / 2) + footprint_geometry[i].center.y * mm2px_scale,
                                 radius: footprint_geometry[i].radius * mm2px_scale,
                                 stroke: fp_strokeColor_default,
                                 strokeWidth: fp_strokeWidth
@@ -310,9 +369,21 @@
                             if (footprint_geometry[i].layer.split(".").length > 1){
                                 if (footprint_geometry[i].layer.split(".")[1] == "SilkS"){
                                     circ.stroke(fp_strokeColor_SilkS);
+									if (footprint_geometry[i].fill_type == "solid"){
+										circ.fill(fp_strokeColor_SilkS);
+									}
                                 }
                                 if (footprint_geometry[i].layer.split(".")[1] == "Fab"){
                                     circ.stroke(fp_strokeColor_Fab);
+									if (footprint_geometry[i].fill_type == "solid"){
+										circ.fill(fp_strokeColor_Fab);
+									}
+                                }
+								if (footprint_geometry[i].layer.split(".")[1] == "CrtYd"){
+                                    circ.stroke(fp_strokeColor_CrtYd);
+									if (footprint_geometry[i].fill_type == "solid"){
+										circ.fill(fp_strokeColor_CrtYd);
+									}
                                 }
                             }
                             layer.add(circ);
@@ -321,7 +392,7 @@
                             var konvaParams = arcToKonvaProps(footprint_geometry[i].start, footprint_geometry[i].mid, footprint_geometry[i].end, thickness = 0);                          
                             var arc = new Konva.Arc({
                                 x: (stage.width() / 2) + konvaParams.x * mm2px_scale,
-                                y: (stage.height() / 2) - konvaParams.y * mm2px_scale,
+                                y: (stage.height() / 2) + konvaParams.y * mm2px_scale,
                                 rotation: konvaParams.rotation,
                                 innerRadius: konvaParams.innerRadius * mm2px_scale,
                                 outerRadius: konvaParams.outerRadius * mm2px_scale,
@@ -337,42 +408,252 @@
                                 if (footprint_geometry[i].layer.split(".")[1] == "Fab"){
                                     arc.stroke(fp_strokeColor_Fab);
                                 }
+								if (footprint_geometry[i].layer.split(".")[1] == "CrtYd"){
+                                    arc.stroke(fp_strokeColor_CrtYd);
+                                }
                             }
                             layer.add(arc);
                             break;
                         case "FP_Pad":
                             switch(footprint_geometry[i].padType){                            
                                 case "THT":
-                                    
+                                    if (footprint_geometry[i].padGeometry == "PadRoundRect"){
+                                        var rect = new Konva.Rect({
+                                            x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].size.x / 2 * mm2px_scale),
+                                            y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].size.y / 2* mm2px_scale),
+                                            width: footprint_geometry[i].size.x * mm2px_scale,
+                                            height: footprint_geometry[i].size.y * mm2px_scale,
+											stroke: fp_THTcontactColor,
+                                            fill: fp_THTcontactColor,
+                                            strokeWidth: fp_strokeWidth
+                                        });
+										if (rect.width() < rect.height()){
+											rect.cornerRadius(rect.width() * footprint_geometry[i].roundrect_rratio);
+										}
+										else{
+											rect.cornerRadius(rect.height() * footprint_geometry[i].roundrect_rratio);
+										}
+										layer.add(rect);
+										
+										if (rect.width() > rect.height()){
+											var pinText = new Konva.Text({
+												x: rect.x(),
+												y: rect.y(),
+												width: rect.width(),
+												height: rect.height(), 
+												align: 'center',
+												text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+												fontSize: rect.height() - 20
+											});
+										}
+										else {
+											var pinText = new Konva.Text({
+												x: rect.x(),
+												y: rect.y() + rect.height(),
+												width: rect.height(),
+												height: rect.width(), 
+												align: 'center',
+												text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+												fontSize: rect.width() - 20,
+												rotation: -90
+											});
+										}
+                                    }
+                                    if (footprint_geometry[i].padGeometry == "PadRect"){
+                                        var rect = new Konva.Rect({
+                                            x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].size.x / 2 * mm2px_scale),
+                                            y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].size.y / 2* mm2px_scale),
+                                            width: footprint_geometry[i].size.x * mm2px_scale,
+                                            height: footprint_geometry[i].size.y * mm2px_scale,
+                                            stroke: fp_THTcontactColor,
+                                            fill: fp_THTcontactColor,
+                                            strokeWidth: fp_strokeWidth
+                                        });
+                                        layer.add(rect);
+										
+										if (rect.width() > rect.height()){
+											var pinText = new Konva.Text({
+												x: rect.x(),
+												y: rect.y(),
+												width: rect.width(),
+												height: rect.height(), 
+												align: 'center',
+												text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+												fontSize: rect.height() - 20
+											});
+										}
+										else {
+											var pinText = new Konva.Text({
+												x: rect.x(),
+												y: rect.y() + rect.height(),
+												width: rect.height(),
+												height: rect.width(), 
+												align: 'center',
+												text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+												fontSize: rect.width() - 20,
+												rotation: -90
+											});
+										}
+                                    }
+                                    if (footprint_geometry[i].padGeometry == "PadCircle"){
+                                        var circ = new Konva.Circle({
+                                            x: (stage.width() / 2) + footprint_geometry[i].position.x * mm2px_scale,
+                                            y: (stage.height() / 2) + footprint_geometry[i].position.y * mm2px_scale,
+											radius: footprint_geometry[i].size.x / 2 * mm2px_scale,
+                                            stroke: fp_THTcontactColor,
+                                            fill: fp_THTcontactColor,
+                                            strokeWidth: fp_strokeWidth
+                                        });
+                                        layer.add(circ);
+										
+										var pinText = new Konva.Text({
+											x: circ.x() - circ.radius() / 2,
+											y: circ.y() - circ.radius() / 2,
+											width: circ.radius(),
+											height: circ.radius(), 
+											align: 'center',
+											text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+											fontSize: circ.radius() - 20
+										});
+                                    }
+									if (footprint_geometry[i].padGeometry == "PadOval"){
+                                        var rect = new Konva.Rect({
+                                            x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].size.x / 2 * mm2px_scale),
+                                            y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].size.y / 2* mm2px_scale),
+                                            width: footprint_geometry[i].size.x * mm2px_scale,
+                                            height: footprint_geometry[i].size.y * mm2px_scale,
+											stroke: fp_THTcontactColor,
+                                            fill: fp_THTcontactColor,
+                                            strokeWidth: fp_strokeWidth
+                                        });
+										if (rect.width() < rect.height()){
+											rect.cornerRadius(rect.width() / 2);
+										}
+										else{
+											rect.cornerRadius(rect.height() / 2);
+										}
+										layer.add(rect);
+										
+										if (rect.width() > rect.height()){
+											var pinText = new Konva.Text({
+												x: rect.x(),
+												y: rect.y(),
+												width: rect.width(),
+												height: rect.height(), 
+												align: 'center',
+												text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+												fontSize: rect.height() - 20
+											});
+										}
+										else {
+											var pinText = new Konva.Text({
+												x: rect.x(),
+												y: rect.y() + rect.height(),
+												width: rect.height(),
+												height: rect.width(), 
+												align: 'center',
+												text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+												fontSize: rect.width() - 20,
+												rotation: -90
+											});
+										}
+                                    }
+									// Drill Hole
+									var rect = new Konva.Rect({
+                                        x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].drill.x / 2 * mm2px_scale),
+                                        y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].drill.y / 2* mm2px_scale),
+                                        width: footprint_geometry[i].drill.x * mm2px_scale,
+                                        height: footprint_geometry[i].drill.y * mm2px_scale,
+										stroke: fp_bgColor,
+                                        fill: fp_bgColor,
+                                        strokeWidth: fp_strokeWidth
+                                    });
+									if (rect.width() < rect.height()){
+										rect.cornerRadius(rect.width() / 2);
+									}
+									else{
+										rect.cornerRadius(rect.height() / 2);
+									}
+									layer.add(rect);
+									
+									layer.add(pinText);
                                     break;
                                 case "SMD":
                                     if (footprint_geometry[i].padGeometry == "PadRoundRect"){
                                         var rect = new Konva.Rect({
-                                            x: (stage.width() / 2) + footprint_geometry[i].position.x * mm2px_scale,
-                                            y: (stage.height() / 2) - footprint_geometry[i].position.y * mm2px_scale,
-                                            width: ((stage.width() / 2) + footprint_geometry[i].size.x * mm2px_scale) - ((stage.width() / 2) + footprint_geometry[i].start.x * mm2px_scale),
-                                            height: ((stage.height() / 2) - footprint_geometry[i].size.y * mm2px_scale) - ((stage.height() / 2) - footprint_geometry[i].start.y * mm2px_scale),
-                                            stroke: fp_SMDpadColor,
+                                            x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].size.x / 2 * mm2px_scale),
+                                            y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].size.y / 2* mm2px_scale),
+                                            width: footprint_geometry[i].size.x * mm2px_scale,
+                                            height: footprint_geometry[i].size.y * mm2px_scale,
+											stroke: fp_SMDpadColor,
                                             fill: fp_SMDpadColor,
                                             strokeWidth: fp_strokeWidth
                                         });
+										if (rect.width() < rect.height()){
+											rect.cornerRadius(rect.width() * footprint_geometry[i].roundrect_rratio);
+										}
+										else{
+											rect.cornerRadius(rect.height() * footprint_geometry[i].roundrect_rratio);
+										}
                                         layer.add(rect);
                                     }
                                     if (footprint_geometry[i].padGeometry == "PadRect"){
                                         var rect = new Konva.Rect({
-                                            x: (stage.width() / 2) + footprint_geometry[i].position.x * mm2px_scale,
-                                            y: (stage.height() / 2) - footprint_geometry[i].position.y * mm2px_scale,
-                                            width: ((stage.width() / 2) + footprint_geometry[i].size.x * mm2px_scale) - ((stage.width() / 2) + footprint_geometry[i].start.x * mm2px_scale),
-                                            height: ((stage.height() / 2) - footprint_geometry[i].size.y * mm2px_scale) - ((stage.height() / 2) - footprint_geometry[i].start.y * mm2px_scale),
+                                            x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].size.x / 2 * mm2px_scale),
+                                            y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].size.y / 2* mm2px_scale),
+                                            width: footprint_geometry[i].size.x * mm2px_scale,
+                                            height: footprint_geometry[i].size.y * mm2px_scale,
                                             stroke: fp_SMDpadColor,
                                             fill: fp_SMDpadColor,
                                             strokeWidth: fp_strokeWidth
                                         });
                                         layer.add(rect);
                                     }
+									
+									if (rect.width() > rect.height()){
+										var pinText = new Konva.Text({
+											x: rect.x(),
+											y: rect.y(),
+											width: rect.width(),
+											height: rect.height(), 
+											align: 'center',
+											text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+											fontSize: rect.height() - 20
+										});
+										layer.add(pinText);
+									}
+                                    else {
+										var pinText = new Konva.Text({
+											x: rect.x(),
+											y: rect.y() + rect.height(),
+											width: rect.height(),
+											height: rect.width(), 
+											align: 'center',
+											text: footprint_geometry[i].number + ' (' + footprint_geometry[i].name + ')',
+											fontSize: rect.width() - 20,
+											rotation: -90
+										});
+										layer.add(pinText);										
+									}
                                     break;
                                 case "NP_THT":   
-                                    
+                                    // Drill Hole
+									var rect = new Konva.Rect({
+                                        x: (stage.width() / 2) + (footprint_geometry[i].position.x * mm2px_scale - footprint_geometry[i].drill.x / 2 * mm2px_scale),
+                                        y: (stage.height() / 2) + (footprint_geometry[i].position.y * mm2px_scale - footprint_geometry[i].drill.y / 2* mm2px_scale),
+                                        width: footprint_geometry[i].drill.x * mm2px_scale,
+                                        height: footprint_geometry[i].drill.y * mm2px_scale,
+										stroke: fp_strokeColor_padNP_THT,
+                                        fill: fp_strokeColor_padNP_THT,
+                                        strokeWidth: fp_strokeWidth
+                                    });
+									if (rect.width() < rect.height()){
+										rect.cornerRadius(rect.width() / 2);
+									}
+									else{
+										rect.cornerRadius(rect.height() / 2);
+									}
+									layer.add(rect);
                                     break;
                                 default:
                                     console.log("ERROR: Undefined Pad Shape Type: " + footprint_geometry[i].padType)
@@ -384,6 +665,113 @@
                 }
             }
 
+            function getBoundingBox(layer){
+                var bounding_box = {
+                    maxX: 0,
+                    maxY: 0,
+                    minX: 0,
+                    minY: 0
+                };
+                
+                var X0 = 0;
+                var X1 = 0;
+                var Y0 = 0;
+                var Y1 = 0;
+            
+                var layer_children = layer.getChildren();
+                for (element of layer_children){
+                    switch(element.getClassName()){
+                    case 'Line':
+                        for (let i = 0; i < (element.attrs.points.length - 1); i+=2){
+                            if (element.attrs.points[i] < X0){
+                                X0 = element.attrs.points[i];
+                            }
+                            if (element.attrs.points[i] > X1){
+                                X1 = element.attrs.points[i];
+                            }
+                            if (element.attrs.points[i+1] < Y0){
+                                Y0 = element.attrs.points[i+1];
+							}
+							if (element.attrs.points[i+1] > Y1){
+                                Y1 = element.attrs.points[i+1];
+                            }
+                        }
+                        break;
+                    case 'Rect':
+						if (element.attrs.width < 0){
+                            X0 = element.attrs.x + element.attrs.width;
+                            X1 = element.attrs.x;
+						}
+						else{
+                            X0 = element.attrs.x;
+                            X1 = element.attrs.x + element.attrs.width;
+						}
+						if (element.attrs.height < 0){
+                            Y0 = element.attrs.y + element.attrs.height;
+                            Y1 = element.attrs.y;
+						}
+						else{
+                            Y0 = element.attrs.y;
+                            Y1 = element.attrs.y + element.attrs.height;
+						}
+                        break;
+                    case 'Circle':
+						X0 = element.attrs.x - element.attrs.radius;
+						X1 = element.attrs.x + element.attrs.radius;
+						Y0 = element.attrs.y - element.attrs.radius;
+						Y1 = element.attrs.y + element.attrs.radius;
+                        break;
+                    case 'Arc':
+
+                        break;
+					case 'Ellipse':
+						X0 = element.attrs.x - element.attrs.radiusX;
+						X1 = element.attrs.x + element.attrs.radiusX;
+						Y0 = element.attrs.y - element.attrs.radiusY;
+						Y1 = element.attrs.y + element.attrs.radiusY;
+                        break;
+					case 'Text':
+						X0 = element.attrs.x;
+						X1 = element.attrs.x + element.attrs.fontSize / 1.5 * element.attrs.text.length;
+						Y0 = element.attrs.y;
+						Y1 = element.attrs.y + element.attrs.fontSize;
+						break;
+                    }
+                    if (X0 < bounding_box.minX){
+                        bounding_box.minX = X0;
+                    }
+                    if (X1 > bounding_box.maxX){
+                        bounding_box.maxX = X1;
+                    }
+                    if (Y0 < bounding_box.minY){
+                        bounding_box.minY = Y0;
+                    }
+                    if (Y1 > bounding_box.maxY){
+                        bounding_box.maxY = Y1;
+                    }  
+                }
+                				
+				return bounding_box;
+            }
+
+            function scaleStage2BBox(stage, bbox){
+                var scaleX = stage.width() / (bbox.maxX - bbox.minX);
+				var scaleY = stage.height() / (bbox.maxY - bbox.minY);
+				if (scaleX < scaleY){
+					stage.scaleX(scaleX);
+					stage.scaleY(scaleX);
+				}
+				else{
+					stage.scaleX(scaleY);
+					stage.scaleY(scaleY);
+				}
+				
+				stage.position({
+					x: Math.abs(bbox.minX * stage.scaleX()) + ((stage.width() - ((bbox.maxX - bbox.minX) * stage.scaleX())) / 2),
+					y: Math.abs(bbox.minY * stage.scaleY()) + ((stage.height() - ((bbox.maxY - bbox.minY) * stage.scaleY())) / 2),
+				});            
+            }
+                        
 			for (var i = 0; i < components.length; ++i){
                 var component_unique_id = components[i].lib_id + "_" + components[i].val + "_" + components[i].footprint;
                 
@@ -414,7 +802,10 @@
                 const sym_layer = new Konva.Layer();
                 sym_stage.add(sym_layer);
                 drawSymbol(sym_stage, sym_layer, components[i].symbol_geometry);
-
+                
+                
+                scaleStage2BBox(sym_stage, getBoundingBox(sym_layer))
+                		
                 sym_stage.on('wheel', (e) => {
                     // stop default scrolling
                     e.evt.preventDefault();
@@ -447,6 +838,26 @@
                     sym_stage.position(newPos);
                 });
                 
+                var isMouseClick = false;
+                
+                sym_stage.on('mousedown', (e) => {
+                    isMouseClick = true;
+                });
+                sym_stage.on('mouseup', (e) => {
+                    isMouseClick = false;
+                });
+                sym_stage.on('mouseleave', (e) => {
+                    isMouseClick = false;
+                });
+                
+                sym_stage.on('mousemove', (e) => {
+                    if (isMouseClick){
+                        sym_stage.position({
+                            x: sym_stage.position().x + e.evt.movementX,
+                            y: sym_stage.position().y + e.evt.movementY
+                        });
+                    }
+                });
 
                 // Create Footprint Canvas
                 const canvas_fp_div = document.createElement("div");
@@ -462,7 +873,9 @@
                 const fp_layer = new Konva.Layer();
                 fp_stage.add(fp_layer);
                 drawFootprint(fp_stage, fp_layer, components[i].footprint_geometry)
-
+				              
+                scaleStage2BBox(fp_stage, getBoundingBox(fp_layer))			
+				
                 fp_stage.on('wheel', (e) => {
                     // stop default scrolling
                     e.evt.preventDefault();
@@ -493,6 +906,47 @@
                         y: pointer.y - mousePointTo.y * newScale,
                     };
                     fp_stage.position(newPos);
+                });
+                
+                var isMouseClick = false;
+				var isMeasurement = false;
+				var measPointerStart;
+                
+                fp_stage.on('mousedown', (e) => {
+                    isMouseClick = true;
+                });
+                fp_stage.on('mouseup', (e) => {
+                    isMouseClick = false;
+					isMeasurement = false;
+                });
+                fp_stage.on('mouseleave', (e) => {
+                    isMouseClick = false;
+					isMeasurement = false;
+                });
+                
+                fp_stage.on('mousemove', (e) => {
+                    if (isMouseClick){
+                        fp_stage.position({
+                            x: fp_stage.position().x + e.evt.movementX,
+                            y: fp_stage.position().y + e.evt.movementY
+                        });
+                    }
+					if (isMeasurement){
+						var measurementX = fp_stage.getPointerPosition().x - measPointerStart.x;
+						var measurementY = fp_stage.getPointerPosition().y - measPointerStart.y;
+						var measurement = (measurementX * measurementX + measurementY *  measurementY) / mm2px_scale / fp_stage.scaleX();
+						console.log(measurement);
+					}
+                });
+				
+				fp_stage.on('dblclick', (e) => {
+					if (!isMeasurement){
+						isMeasurement = true;
+						measPointerStart = fp_stage.getPointerPosition();
+					}
+					else{
+						isMeasurement = false;
+					}
                 });
                 
 

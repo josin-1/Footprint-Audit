@@ -19,14 +19,14 @@ def main():
         compsJS += comp.toJSON(4) + ",\n"
     compsJS += "]"
 
-    generateHTML(compsJS)
+    #generateHTML(compsJS)
 
 
-    # with open("./Footprint_Audit/output.js", "w") as f:
-    #     f.write("components = [\n")
-    #     for comp in comps:
-    #         f.write(comp.toJSON(4) + ",\n")
-    #     f.write("]")
+    with open("./Footprint_Audit/output.js", "w") as f:
+        f.write("components = [\n")
+        for comp in comps:
+            f.write(comp.toJSON(4) + ",\n")
+        f.write("]")
 
     
 

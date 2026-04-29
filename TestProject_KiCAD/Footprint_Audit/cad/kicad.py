@@ -243,6 +243,27 @@ def parse_footprints(pcb_path):
 
                     geometry.append(newShape)
 
+                if fp_data[0] == Symbol('fp_line'):
+                    newShape.type = GeometryShapeType.FP_Polyline
+
+                    for shape_data in fp_data:
+                        if shape_data[0] == Symbol('start'):
+                            newShape.points.append(Vec2D(x=shape_data[1], y= shape_data[2]))
+                        if shape_data[0] == Symbol('end'):
+                            newShape.points.append(Vec2D(x=shape_data[1], y= shape_data[2]))
+                        if shape_data[0] == Symbol('stroke'):
+                            for stroke in shape_data:
+                                if stroke[0] == Symbol('width'):
+                                    newShape.stroke_width = stroke[1]
+                                if stroke[0] == Symbol('type'):
+                                    newShape.stroke_type = str(stroke[1])
+                        if shape_data[0] == Symbol('fill'):
+                            newShape.fill_type = shape_data[1]
+                        if shape_data[0] == Symbol('layer'):
+                            newShape.layer = shape_data[1]
+
+                    geometry.append(newShape)
+
                 if fp_data[0] == Symbol('fp_poly'):
                     newShape.type = GeometryShapeType.FP_Polyline
 
@@ -252,9 +273,7 @@ def parse_footprints(pcb_path):
                                 if point[0] == Symbol('xy'):
                                     #pprint.pp(point)
                                     newShape.points.append(Vec2D(x=point[1], y= point[2]))
-                        
-                        if shape_data[0] == Symbol('end'):
-                            newShape.end = Vec2D(x=shape_data[1], y=shape_data[2])
+
                         if shape_data[0] == Symbol('stroke'):
                             for stroke in shape_data:
                                 if stroke[0] == Symbol('width'):
@@ -355,8 +374,10 @@ def parse_footprints(pcb_path):
                             # For whatever reason sometimes there is only one value!!
                             if len(shape_data) == 2:
                                 newShape.drill = Vec2D(x=shape_data[1], y=shape_data[1])
-                            else:
+                            if len(shape_data) == 3:
                                 newShape.drill = Vec2D(x=shape_data[1], y=shape_data[2])
+                            if len(shape_data) == 4:
+                                newShape.drill = Vec2D(x=shape_data[2], y=shape_data[3])
                         if shape_data[0] == Symbol('roundrect_rratio'):
                             newShape.roundrect_rratio = shape_data[1]
                         if shape_data[0] == Symbol('pinfunction'):

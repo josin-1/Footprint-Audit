@@ -977,6 +977,234 @@ components = [
             },
             "points": [
                 {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
                     "x": -1.3,
                     "y": -1.51
                 },
@@ -1003,6 +1231,519 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                },
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -1637,6 +2378,2571 @@ components = [
         }
     ],
     "footprint_geometry": [
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.56,
+                    "y": -2.41
+                },
+                {
+                    "x": -1.14,
+                    "y": -2.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.56,
+                    "y": 9.31
+                },
+                {
+                    "x": -2.56,
+                    "y": -2.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.14,
+                    "y": -2.41
+                },
+                {
+                    "x": -1.14,
+                    "y": 2.09
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.14,
+                    "y": 2.09
+                },
+                {
+                    "x": 3.75,
+                    "y": 2.09
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.3,
+                    "y": -2.1
+                },
+                {
+                    "x": 0.3,
+                    "y": -2.1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.25,
+                    "y": 3.2
+                },
+                {
+                    "x": -0.25,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.25,
+                    "y": 8.7
+                },
+                {
+                    "x": 0.25,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -1.5
+                },
+                {
+                    "x": -0.3,
+                    "y": -2.1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.25,
+                    "y": 3.2
+                },
+                {
+                    "x": -0.25,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.25,
+                    "y": 8.7
+                },
+                {
+                    "x": 0.25,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.3,
+                    "y": -2.1
+                },
+                {
+                    "x": 0,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.25,
+                    "y": 3.2
+                },
+                {
+                    "x": 2.25,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.25,
+                    "y": 8.7
+                },
+                {
+                    "x": 2.75,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.75,
+                    "y": 3.2
+                },
+                {
+                    "x": 2.25,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.75,
+                    "y": 8.7
+                },
+                {
+                    "x": 2.75,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 3.75,
+                    "y": 9.31
+                },
+                {
+                    "x": -2.56,
+                    "y": 9.31
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 3.75,
+                    "y": 9.31
+                },
+                {
+                    "x": 10.06,
+                    "y": 9.31
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 4.75,
+                    "y": 3.2
+                },
+                {
+                    "x": 4.75,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 4.75,
+                    "y": 8.7
+                },
+                {
+                    "x": 5.25,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.25,
+                    "y": 3.2
+                },
+                {
+                    "x": 4.75,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.25,
+                    "y": 8.7
+                },
+                {
+                    "x": 5.25,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.25,
+                    "y": 3.2
+                },
+                {
+                    "x": 7.25,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.25,
+                    "y": 8.7
+                },
+                {
+                    "x": 7.75,
+                    "y": 8.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.75,
+                    "y": 3.2
+                },
+                {
+                    "x": 7.25,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.75,
+                    "y": 8.7
+                },
+                {
+                    "x": 7.75,
+                    "y": 3.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 8.64,
+                    "y": -2.41
+                },
+                {
+                    "x": 8.64,
+                    "y": 2.09
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 8.64,
+                    "y": 2.09
+                },
+                {
+                    "x": 3.75,
+                    "y": 2.09
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 10.06,
+                    "y": -2.41
+                },
+                {
+                    "x": 8.64,
+                    "y": -2.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 10.06,
+                    "y": 9.31
+                },
+                {
+                    "x": 10.06,
+                    "y": -2.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.95,
+                    "y": -2.8
+                },
+                {
+                    "x": -2.95,
+                    "y": 9.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.95,
+                    "y": 9.7
+                },
+                {
+                    "x": 10.45,
+                    "y": 9.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 10.45,
+                    "y": -2.8
+                },
+                {
+                    "x": -2.95,
+                    "y": -2.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 10.45,
+                    "y": 9.7
+                },
+                {
+                    "x": 10.45,
+                    "y": -2.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.45,
+                    "y": -2.3
+                },
+                {
+                    "x": -1.25,
+                    "y": -2.3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.45,
+                    "y": 9.2
+                },
+                {
+                    "x": -2.45,
+                    "y": -2.3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.25,
+                    "y": -2.3
+                },
+                {
+                    "x": -1.25,
+                    "y": 2.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.25,
+                    "y": 2.2
+                },
+                {
+                    "x": 3.75,
+                    "y": 2.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.625,
+                    "y": 2.2
+                },
+                {
+                    "x": 0,
+                    "y": 1.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.2
+                },
+                {
+                    "x": 0.625,
+                    "y": 2.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 3.75,
+                    "y": 9.2
+                },
+                {
+                    "x": -2.45,
+                    "y": 9.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 3.75,
+                    "y": 9.2
+                },
+                {
+                    "x": 9.95,
+                    "y": 9.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 8.75,
+                    "y": -2.3
+                },
+                {
+                    "x": 8.75,
+                    "y": 2.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 8.75,
+                    "y": 2.2
+                },
+                {
+                    "x": 3.75,
+                    "y": 2.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 9.95,
+                    "y": -2.3
+                },
+                {
+                    "x": 8.75,
+                    "y": -2.3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 9.95,
+                    "y": 9.2
+                },
+                {
+                    "x": 9.95,
+                    "y": -2.3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
         {
             "type": "FP_Pad",
             "start": {
@@ -2302,6 +5608,234 @@ components = [
             },
             "points": [
                 {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
                     "x": -1.3,
                     "y": -1.51
                 },
@@ -2328,6 +5862,519 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                },
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -2794,6 +6841,576 @@ components = [
         }
     ],
     "footprint_geometry": [
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.835242,
+                    "y": -0.91
+                },
+                {
+                    "x": 0.835242,
+                    "y": -0.91
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.835242,
+                    "y": 0.91
+                },
+                {
+                    "x": 0.835242,
+                    "y": 0.91
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.35,
+                    "y": -1.2
+                },
+                {
+                    "x": 2.35,
+                    "y": -1.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.35,
+                    "y": 1.2
+                },
+                {
+                    "x": -2.35,
+                    "y": -1.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.35,
+                    "y": -1.2
+                },
+                {
+                    "x": 2.35,
+                    "y": 1.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.35,
+                    "y": 1.2
+                },
+                {
+                    "x": -2.35,
+                    "y": 1.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.6,
+                    "y": -0.8
+                },
+                {
+                    "x": 1.6,
+                    "y": -0.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.6,
+                    "y": 0.8
+                },
+                {
+                    "x": -1.6,
+                    "y": -0.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.6,
+                    "y": -0.8
+                },
+                {
+                    "x": 1.6,
+                    "y": 0.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.6,
+                    "y": 0.8
+                },
+                {
+                    "x": -1.6,
+                    "y": 0.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
         {
             "type": "FP_Pad",
             "start": {
@@ -7815,6 +12432,462 @@ components = [
             },
             "points": [
                 {
+                    "x": -7.11,
+                    "y": -7.11
+                },
+                {
+                    "x": -7.11,
+                    "y": -6.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.11,
+                    "y": 7.11
+                },
+                {
+                    "x": -7.11,
+                    "y": 6.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.41,
+                    "y": -7.11
+                },
+                {
+                    "x": -7.11,
+                    "y": -7.11
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.41,
+                    "y": 7.11
+                },
+                {
+                    "x": -7.11,
+                    "y": 7.11
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.41,
+                    "y": -7.11
+                },
+                {
+                    "x": 7.11,
+                    "y": -7.11
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.41,
+                    "y": 7.11
+                },
+                {
+                    "x": 7.11,
+                    "y": 7.11
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.11,
+                    "y": -7.11
+                },
+                {
+                    "x": 7.11,
+                    "y": -6.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.11,
+                    "y": 7.11
+                },
+                {
+                    "x": 7.11,
+                    "y": 6.41
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
                     "x": -7.7375,
                     "y": -6.41
                 },
@@ -7841,6 +12914,1659 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -8.72,
+                    "y": -6.4
+                },
+                {
+                    "x": -8.72,
+                    "y": 0
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -8.72,
+                    "y": 6.4
+                },
+                {
+                    "x": -8.72,
+                    "y": 0
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.25,
+                    "y": -7.25
+                },
+                {
+                    "x": -7.25,
+                    "y": -6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.25,
+                    "y": -6.4
+                },
+                {
+                    "x": -8.72,
+                    "y": -6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.25,
+                    "y": 6.4
+                },
+                {
+                    "x": -8.72,
+                    "y": 6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.25,
+                    "y": 7.25
+                },
+                {
+                    "x": -7.25,
+                    "y": 6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.4,
+                    "y": -8.72
+                },
+                {
+                    "x": -6.4,
+                    "y": -7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.4,
+                    "y": -7.25
+                },
+                {
+                    "x": -7.25,
+                    "y": -7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.4,
+                    "y": 7.25
+                },
+                {
+                    "x": -7.25,
+                    "y": 7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.4,
+                    "y": 8.72
+                },
+                {
+                    "x": -6.4,
+                    "y": 7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -8.72
+                },
+                {
+                    "x": -6.4,
+                    "y": -8.72
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -8.72
+                },
+                {
+                    "x": 6.4,
+                    "y": -8.72
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 8.72
+                },
+                {
+                    "x": -6.4,
+                    "y": 8.72
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 8.72
+                },
+                {
+                    "x": 6.4,
+                    "y": 8.72
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.4,
+                    "y": -8.72
+                },
+                {
+                    "x": 6.4,
+                    "y": -7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.4,
+                    "y": -7.25
+                },
+                {
+                    "x": 7.25,
+                    "y": -7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.4,
+                    "y": 7.25
+                },
+                {
+                    "x": 7.25,
+                    "y": 7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.4,
+                    "y": 8.72
+                },
+                {
+                    "x": 6.4,
+                    "y": 7.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.25,
+                    "y": -7.25
+                },
+                {
+                    "x": 7.25,
+                    "y": -6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.25,
+                    "y": -6.4
+                },
+                {
+                    "x": 8.72,
+                    "y": -6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.25,
+                    "y": 6.4
+                },
+                {
+                    "x": 8.72,
+                    "y": 6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.25,
+                    "y": 7.25
+                },
+                {
+                    "x": 7.25,
+                    "y": 6.4
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 8.72,
+                    "y": -6.4
+                },
+                {
+                    "x": 8.72,
+                    "y": 0
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 8.72,
+                    "y": 6.4
+                },
+                {
+                    "x": 8.72,
+                    "y": 0
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7,
+                    "y": -6
+                },
+                {
+                    "x": -6,
+                    "y": -7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7,
+                    "y": 7
+                },
+                {
+                    "x": -7,
+                    "y": -6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6,
+                    "y": -7
+                },
+                {
+                    "x": 7,
+                    "y": -7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7,
+                    "y": -7
+                },
+                {
+                    "x": 7,
+                    "y": 7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "x": -7,
+                    "y": 7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -12890,6 +19616,234 @@ components = [
             },
             "points": [
                 {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
                     "x": -1.3,
                     "y": -1.51
                 },
@@ -12916,6 +19870,519 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                },
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -13410,6 +20877,576 @@ components = [
         }
     ],
     "footprint_geometry": [
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.261252,
+                    "y": -0.735
+                },
+                {
+                    "x": 0.261252,
+                    "y": -0.735
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.261252,
+                    "y": 0.735
+                },
+                {
+                    "x": 0.261252,
+                    "y": 0.735
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -0.98
+                },
+                {
+                    "x": 1.7,
+                    "y": -0.98
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": 0.98
+                },
+                {
+                    "x": -1.7,
+                    "y": -0.98
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": -0.98
+                },
+                {
+                    "x": 1.7,
+                    "y": 0.98
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": 0.98
+                },
+                {
+                    "x": -1.7,
+                    "y": 0.98
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1,
+                    "y": -0.625
+                },
+                {
+                    "x": 1,
+                    "y": -0.625
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1,
+                    "y": 0.625
+                },
+                {
+                    "x": -1,
+                    "y": -0.625
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1,
+                    "y": -0.625
+                },
+                {
+                    "x": 1,
+                    "y": 0.625
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1,
+                    "y": 0.625
+                },
+                {
+                    "x": -1,
+                    "y": 0.625
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
         {
             "type": "FP_Pad",
             "start": {
@@ -14147,6 +22184,120 @@ components = [
     ],
     "footprint_geometry": [
         {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -3,
+                    "y": -2.6
+                },
+                {
+                    "x": 5,
+                    "y": -2.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 3,
+                    "y": 2.6
+                },
+                {
+                    "x": -5,
+                    "y": 2.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
             "type": "FP_Circle",
             "start": {
                 "x": 0,
@@ -14167,6 +22318,462 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.5,
+                    "y": 3
+                },
+                {
+                    "x": -6.5,
+                    "y": -3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.5,
+                    "y": -3
+                },
+                {
+                    "x": -6.5,
+                    "y": -3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.5,
+                    "y": 3
+                },
+                {
+                    "x": -6.5,
+                    "y": 3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.5,
+                    "y": 3
+                },
+                {
+                    "x": 6.5,
+                    "y": -3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6,
+                    "y": 2.8
+                },
+                {
+                    "x": -6,
+                    "y": -2.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6,
+                    "y": -2.8
+                },
+                {
+                    "x": -6,
+                    "y": -2.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6,
+                    "y": 2.8
+                },
+                {
+                    "x": -6,
+                    "y": 2.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6,
+                    "y": 2.8
+                },
+                {
+                    "x": 6,
+                    "y": -2.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -14920,6 +23527,576 @@ components = [
     ],
     "footprint_geometry": [
         {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.3,
+                    "y": 1.5
+                },
+                {
+                    "x": -0.25,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.2,
+                    "y": -1.5
+                },
+                {
+                    "x": -0.25,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.25,
+                    "y": -1.5
+                },
+                {
+                    "x": -0.15,
+                    "y": -1.35
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.25,
+                    "y": 1.5
+                },
+                {
+                    "x": -0.15,
+                    "y": 1.35
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.15,
+                    "y": -1.35
+                },
+                {
+                    "x": 0.15,
+                    "y": -1.35
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.15,
+                    "y": 1.35
+                },
+                {
+                    "x": 0.15,
+                    "y": 1.35
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.15,
+                    "y": -1.35
+                },
+                {
+                    "x": 0.25,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.15,
+                    "y": 1.35
+                },
+                {
+                    "x": 0.25,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.25,
+                    "y": -1.5
+                },
+                {
+                    "x": 1.25,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.25,
+                    "y": 1.5
+                },
+                {
+                    "x": 1.25,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
             "type": "FP_Circle",
             "start": {
                 "x": 0,
@@ -14940,6 +24117,519 @@ components = [
             "stroke_type": "default",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.55,
+                    "y": -1.55
+                },
+                {
+                    "x": -1.55,
+                    "y": 1.55
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.55,
+                    "y": 1.55
+                },
+                {
+                    "x": 1.6,
+                    "y": 1.55
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.6,
+                    "y": -1.55
+                },
+                {
+                    "x": -1.55,
+                    "y": -1.55
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.6,
+                    "y": 1.55
+                },
+                {
+                    "x": 1.6,
+                    "y": -1.55
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.25,
+                    "y": -0.65
+                },
+                {
+                    "x": -0.9,
+                    "y": -1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.25,
+                    "y": 1
+                },
+                {
+                    "x": -1.25,
+                    "y": -0.65
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.9,
+                    "y": -1
+                },
+                {
+                    "x": 1.25,
+                    "y": -1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.25,
+                    "y": -1
+                },
+                {
+                    "x": 1.25,
+                    "y": 1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.25,
+                    "y": 1
+                },
+                {
+                    "x": -1.25,
+                    "y": 1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -16138,6 +25828,234 @@ components = [
             },
             "points": [
                 {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": -1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0,
+                    "y": 1.56
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.56
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
                     "x": -1.3,
                     "y": -1.51
                 },
@@ -16164,6 +26082,519 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                },
+                {
+                    "x": -2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.05,
+                    "y": 1.7
+                },
+                {
+                    "x": 2.05,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                },
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.05
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.4,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": -1.45
+                },
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 0.8,
+                    "y": 1.45
+                },
+                {
+                    "x": -0.8,
+                    "y": 1.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -16677,6 +27108,120 @@ components = [
     ],
     "footprint_geometry": [
         {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -1.8
+                },
+                {
+                    "x": 1.7,
+                    "y": -1.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": 1.8
+                },
+                {
+                    "x": 1.7,
+                    "y": 1.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
             "type": "FP_Circle",
             "start": {
                 "x": 0,
@@ -16697,6 +27242,519 @@ components = [
             "stroke_type": "default",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.1,
+                    "y": -1.9
+                },
+                {
+                    "x": -2.1,
+                    "y": 1.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.1,
+                    "y": 1.9
+                },
+                {
+                    "x": 2.1,
+                    "y": 1.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.1,
+                    "y": -1.9
+                },
+                {
+                    "x": -2.1,
+                    "y": -1.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.1,
+                    "y": 1.9
+                },
+                {
+                    "x": 2.1,
+                    "y": -1.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.6,
+                    "y": -1.25
+                },
+                {
+                    "x": -1.6,
+                    "y": 0.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.6,
+                    "y": 0.85
+                },
+                {
+                    "x": -1.25,
+                    "y": 1.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.25,
+                    "y": 1.25
+                },
+                {
+                    "x": 1.6,
+                    "y": 1.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.6,
+                    "y": -1.25
+                },
+                {
+                    "x": -1.6,
+                    "y": -1.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.6,
+                    "y": 1.25
+                },
+                {
+                    "x": 1.6,
+                    "y": -1.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -17345,6 +28403,690 @@ components = [
         }
     ],
     "footprint_geometry": [
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.4,
+                    "y": -1.6
+                },
+                {
+                    "x": -2.4,
+                    "y": 1.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.25,
+                    "y": -1.6
+                },
+                {
+                    "x": -2.4,
+                    "y": -1.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.25,
+                    "y": 1.6
+                },
+                {
+                    "x": -2.4,
+                    "y": 1.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.65,
+                    "y": -1.85
+                },
+                {
+                    "x": 2.5,
+                    "y": -1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.65,
+                    "y": 1.85
+                },
+                {
+                    "x": -2.65,
+                    "y": -1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.5,
+                    "y": -1.85
+                },
+                {
+                    "x": 2.5,
+                    "y": 1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.5,
+                    "y": 1.85
+                },
+                {
+                    "x": -2.65,
+                    "y": 1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -1.5
+                },
+                {
+                    "x": -1.7,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -0.6
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": 1.5
+                },
+                {
+                    "x": 1.7,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": -1.5
+                },
+                {
+                    "x": -1.7,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": 1.5
+                },
+                {
+                    "x": 1.7,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
         {
             "type": "FP_Circle",
             "start": {
@@ -19514,6 +31256,918 @@ components = [
     ],
     "footprint_geometry": [
         {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.2,
+                    "y": -2.19
+                },
+                {
+                    "x": -5.2,
+                    "y": -1.69
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.2,
+                    "y": -2.19
+                },
+                {
+                    "x": -4.7,
+                    "y": -2.19
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.2,
+                    "y": 4.85
+                },
+                {
+                    "x": -5.2,
+                    "y": 4.35
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.2,
+                    "y": 4.85
+                },
+                {
+                    "x": -4.7,
+                    "y": 4.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.2,
+                    "y": -2.2
+                },
+                {
+                    "x": 4.7,
+                    "y": -2.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.2,
+                    "y": -2.19
+                },
+                {
+                    "x": 5.2,
+                    "y": -1.69
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.2,
+                    "y": 4.85
+                },
+                {
+                    "x": 4.7,
+                    "y": 4.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.2,
+                    "y": 4.85
+                },
+                {
+                    "x": 5.2,
+                    "y": 4.35
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.4,
+                    "y": -2.45
+                },
+                {
+                    "x": -5.4,
+                    "y": 5.025
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.4,
+                    "y": -2.45
+                },
+                {
+                    "x": 5.4,
+                    "y": -2.45
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.4,
+                    "y": 5.025
+                },
+                {
+                    "x": 5.4,
+                    "y": 5.025
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.4,
+                    "y": -2.45
+                },
+                {
+                    "x": 5.4,
+                    "y": 5.025
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.1,
+                    "y": -2.1
+                },
+                {
+                    "x": -5.1,
+                    "y": 4.75
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.1,
+                    "y": -2.1
+                },
+                {
+                    "x": 5.1,
+                    "y": -2.1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -5.1,
+                    "y": 4.75
+                },
+                {
+                    "x": 5.1,
+                    "y": 4.75
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.1,
+                    "y": -2.1
+                },
+                {
+                    "x": 5.1,
+                    "y": 4.75
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
             "type": "FP_Pad",
             "start": {
                 "x": 0,
@@ -20222,8 +32876,8 @@ components = [
             },
             "pad_layer": [],
             "drill": {
-                "x": "oval",
-                "y": 0.65
+                "x": 0.65,
+                "y": 1.7
             },
             "rect_delta": {
                 "x": 0,
@@ -20270,8 +32924,8 @@ components = [
             },
             "pad_layer": [],
             "drill": {
-                "x": "oval",
-                "y": 0.65
+                "x": 0.65,
+                "y": 1.4
             },
             "rect_delta": {
                 "x": 0,
@@ -20318,8 +32972,8 @@ components = [
             },
             "pad_layer": [],
             "drill": {
-                "x": "oval",
-                "y": 0.65
+                "x": 0.65,
+                "y": 1.7
             },
             "rect_delta": {
                 "x": 0,
@@ -20366,8 +33020,8 @@ components = [
             },
             "pad_layer": [],
             "drill": {
-                "x": "oval",
-                "y": 0.65
+                "x": 0.65,
+                "y": 1.4
             },
             "rect_delta": {
                 "x": 0,
@@ -23362,6 +36016,120 @@ components = [
             },
             "points": [
                 {
+                    "x": -1.1,
+                    "y": 1.8
+                },
+                {
+                    "x": 1.1,
+                    "y": 1.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.1,
+                    "y": -1.8
+                },
+                {
+                    "x": -0.9,
+                    "y": -1.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
                     "x": -1.34,
                     "y": -1.67
                 },
@@ -23388,6 +36156,519 @@ components = [
             "stroke_type": "solid",
             "fill_type": "solid",
             "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -2
+                },
+                {
+                    "x": -1.7,
+                    "y": 2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": 2
+                },
+                {
+                    "x": 1.7,
+                    "y": 2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": -2
+                },
+                {
+                    "x": -1.7,
+                    "y": -2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": 2
+                },
+                {
+                    "x": 1.7,
+                    "y": -2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1,
+                    "y": -1.1
+                },
+                {
+                    "x": -0.4,
+                    "y": -1.65
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1,
+                    "y": 1.65
+                },
+                {
+                    "x": -1,
+                    "y": -1.1
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -0.4,
+                    "y": -1.65
+                },
+                {
+                    "x": 1,
+                    "y": -1.65
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1,
+                    "y": -1.65
+                },
+                {
+                    "x": 1,
+                    "y": 1.65
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1,
+                    "y": 1.65
+                },
+                {
+                    "x": -1,
+                    "y": 1.65
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
             "name": "",
             "number": "",
             "position": {
@@ -24133,6 +37414,690 @@ components = [
         }
     ],
     "footprint_geometry": [
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.4,
+                    "y": -1.6
+                },
+                {
+                    "x": -2.4,
+                    "y": 1.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.25,
+                    "y": -1.6
+                },
+                {
+                    "x": -2.4,
+                    "y": -1.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.25,
+                    "y": 1.6
+                },
+                {
+                    "x": -2.4,
+                    "y": 1.6
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.65,
+                    "y": -1.85
+                },
+                {
+                    "x": 2.5,
+                    "y": -1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -2.65,
+                    "y": 1.85
+                },
+                {
+                    "x": -2.65,
+                    "y": -1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.5,
+                    "y": -1.85
+                },
+                {
+                    "x": 2.5,
+                    "y": 1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.5,
+                    "y": 1.85
+                },
+                {
+                    "x": -2.65,
+                    "y": 1.85
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.05,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.CrtYd",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -1.5
+                },
+                {
+                    "x": -1.7,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": -0.6
+                },
+                {
+                    "x": -0.8,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -1.7,
+                    "y": 1.5
+                },
+                {
+                    "x": 1.7,
+                    "y": 1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": -1.5
+                },
+                {
+                    "x": -1.7,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 1.7,
+                    "y": 1.5
+                },
+                {
+                    "x": 1.7,
+                    "y": -1.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.1,
+            "stroke_type": "solid",
+            "fill_type": "",
+            "layer": "F.Fab",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
         {
             "type": "FP_Circle",
             "start": {
@@ -25323,6 +39288,1602 @@ components = [
         }
     ],
     "footprint_geometry": [
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.375,
+                    "y": -8.8
+                },
+                {
+                    "x": -6.8,
+                    "y": -8.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.375,
+                    "y": -1.8
+                },
+                {
+                    "x": -7.375,
+                    "y": -8.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -7.1,
+                    "y": -1.8
+                },
+                {
+                    "x": -7.1,
+                    "y": -8.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.8,
+                    "y": -9.9
+                },
+                {
+                    "x": -6.8,
+                    "y": -8.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.8,
+                    "y": -9.45
+                },
+                {
+                    "x": -6.6,
+                    "y": -9.25
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.8,
+                    "y": -1.8
+                },
+                {
+                    "x": -7.375,
+                    "y": -1.8
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.8,
+                    "y": -1.8
+                },
+                {
+                    "x": -6.8,
+                    "y": 0.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.6,
+                    "y": -9.25
+                },
+                {
+                    "x": -6.6,
+                    "y": -6.3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": -6.6,
+                    "y": -6.3
+                },
+                {
+                    "x": -7.35,
+                    "y": -6.3
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.85,
+                    "y": -9.9
+                },
+                {
+                    "x": -6.8,
+                    "y": -9.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 2.85,
+                    "y": -9.9
+                },
+                {
+                    "x": 2.85,
+                    "y": -10.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 4.8375,
+                    "y": -2.5
+                },
+                {
+                    "x": 4.8375,
+                    "y": -0.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 4.8375,
+                    "y": -0.5
+                },
+                {
+                    "x": 5.5375,
+                    "y": 0.2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.3875,
+                    "y": -2
+                },
+                {
+                    "x": 5.3875,
+                    "y": -0.75
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.3875,
+                    "y": -1.7
+                },
+                {
+                    "x": 6.5875,
+                    "y": -1.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.3875,
+                    "y": -0.75
+                },
+                {
+                    "x": 6.0875,
+                    "y": 0
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.5375,
+                    "y": 0.2
+                },
+                {
+                    "x": 5.5375,
+                    "y": 0.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.76,
+                    "y": -10.5
+                },
+                {
+                    "x": 2.85,
+                    "y": -10.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.76,
+                    "y": -9
+                },
+                {
+                    "x": 5.76,
+                    "y": -10.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 5.76,
+                    "y": -9
+                },
+                {
+                    "x": 7.4,
+                    "y": -9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.0875,
+                    "y": 0
+                },
+                {
+                    "x": 5.9875,
+                    "y": 0.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.5875,
+                    "y": -2
+                },
+                {
+                    "x": 5.3875,
+                    "y": -2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.5875,
+                    "y": 0.7
+                },
+                {
+                    "x": 6.5875,
+                    "y": -2
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.8,
+                    "y": -1.9
+                },
+                {
+                    "x": 6.8,
+                    "y": 0.7
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 6.8,
+                    "y": -1.9
+                },
+                {
+                    "x": 7.4,
+                    "y": -1.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.1,
+                    "y": -9
+                },
+                {
+                    "x": 7.1,
+                    "y": -1.9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.1,
+                    "y": -2.5
+                },
+                {
+                    "x": 4.8375,
+                    "y": -2.5
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
+        {
+            "type": "FP_Polyline",
+            "start": {
+                "x": 0,
+                "y": 0
+            },
+            "end": {
+                "x": 0,
+                "y": 0
+            },
+            "points": [
+                {
+                    "x": 7.4,
+                    "y": -1.9
+                },
+                {
+                    "x": 7.4,
+                    "y": -9
+                }
+            ],
+            "center": {
+                "x": 0,
+                "y": 0
+            },
+            "radius": 0.0,
+            "mid": 0.0,
+            "stroke_width": 0.12,
+            "stroke_type": "default",
+            "fill_type": "",
+            "layer": "F.SilkS",
+            "name": "",
+            "number": "",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 0.0,
+            "length": 0.0,
+            "padType": "Undefined",
+            "padGeometry": "Undefined",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "pad_layer": [],
+            "drill": {
+                "x": 0,
+                "y": 0
+            },
+            "rect_delta": {
+                "x": 0,
+                "y": 0
+            },
+            "roundrect_rratio": 0.0,
+            "chamfer_ratio": 0.0,
+            "chamfer": []
+        },
         {
             "type": "FP_Rectangle",
             "start": {
