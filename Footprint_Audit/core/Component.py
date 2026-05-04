@@ -41,15 +41,25 @@ class ComponentEntry:
 
     def toJSON(self, indent=None):
         
-        try:
-            with open(self.ds_image_sym, "rb") as f:
-                ds_image_sym_b64str = "data:image/png;base64," + base64.standard_b64encode(f.read()).decode("utf-8")
-            with open(self.ds_image_fp, "rb") as f:
-                ds_image_fp_b64str = "data:image/png;base64," + base64.standard_b64encode(f.read()).decode("utf-8")
-        except FileNotFoundError: 
-            ds_image_sym_b64str = ""
-            ds_image_fp_b64str = ""
+        ds_image_sym_b64str = ""
+        ds_image_fp_b64str = ""
+
+        if self.ds_image_sym != '':
+            try:
+                with open(self.ds_image_sym, "rb") as f:
+                    ds_image_sym_b64str = "data:image/png;base64," + base64.standard_b64encode(f.read()).decode("utf-8")
+            except FileNotFoundError: 
+                print('SYM FILE NOT FOUND: ' + self.ds_image_sym)
+                ds_image_sym_b64str = ""
             
+        if self.ds_image_fp != '':
+            try:
+                with open(self.ds_image_fp, "rb") as f:
+                    ds_image_fp_b64str = "data:image/png;base64," + base64.standard_b64encode(f.read()).decode("utf-8")
+            except FileNotFoundError: 
+                print('FP FILE NOT FOUND: ' + self.ds_image_fp)
+                ds_image_fp_b64str = ""
+        
         return json.dumps({
             "refs":               self.refs,
             "val":                self.val,

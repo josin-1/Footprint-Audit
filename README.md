@@ -22,12 +22,14 @@ gui_main.py is the generated GUI using wxFormBuilder
 and footprint_audit.py is the starting point for the KiCAD File Parser and HTML file generator<br>
 footprint_audit.py can also be run by it's own, but the arguments are hardcoded for now (maybe I'm adding a CLI interface in the future)
 
-### pyInstaller_Built
-I've prebuilt an one-file executable on Windows using pyInstaller.<br>
+### pyInstaller_Build
+I've prebuilt a one-file executable on Windows using pyInstaller.<br>
 I simply wrote the command:<br>
-<code>pyinstaller --onefile --noconsole ../Footprint_Audit/standalone_gui_start.py</code><br>
-inside this folder, to generate it.
-The Program does need some pip plugins like wx, sexp, ...<br>
+<code>pyInstaller --onefile --name Footprint-Audit --add-data  "../Footprint_Audit/web/fp_audit_style.css;web" --add-data  "../Footprint_Audit/web/fp_audit.js;web" --add-data  "../Footprint_Audit/web/fp_audit.html;web" --add-data  "../Footprint_Audit/web/Konva_min.js;web" ../Footprint_Audit/standalone_gui_start.py</code><br>
+inside the pyInstaller_Build folder, to generate it.<br>
+It is important to use <code>--add-data</code>, because the executable will be launched inside a temp folder. The distinction between running footprint_audit.py as script or executable is also baked into generate_html.py to generate the correct path.<br>
+On Linux the pyInstaller command should use <code>:</code> instead of <code>;</code>, but I've not tried it yet.<br><br>
+The Program does need some pip plugins like wx, sexp, ... that can be installed using <code>pip install</code><br>
 
 ## How to use
 

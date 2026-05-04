@@ -12,6 +12,10 @@ def merge_components(all_components):
     for component in all_components:
         if component in merged:
             merged[component].refs.extend(component.refs)
+            if merged[component].ds_image_sym == '' and component.ds_image_sym != '':
+                merged[component].ds_image_sym = component.ds_image_sym
+            if merged[component].ds_image_fp == '' and component.ds_image_fp != '':
+                merged[component].ds_image_fp = component.ds_image_fp
         else:
             merged[component] = component
 
@@ -160,12 +164,18 @@ def parse_symbol(img_path, sym_img_fieldName, fp_img_fieldName, element):
 
             if symbol_element[1] == sym_img_fieldName:
                 if symbol_element[2] != '':
-                    newCompEntry.ds_image_sym = os.path.abspath(img_path + symbol_element[2])
+                    if symbol_element[2] != '.' or symbol_element[2] != '/':
+                        newCompEntry.ds_image_sym = os.path.join(img_path + '/' + symbol_element[2])
+                    else:
+                        newCompEntry.ds_image_sym = os.path.join(img_path + symbol_element[2])
 
             if symbol_element[1] == fp_img_fieldName:
                 if symbol_element[2] != '':
-                    newCompEntry.ds_image_fp = os.path.abspath(img_path + symbol_element[2])
-                    
+                    if symbol_element[2] != '.' or symbol_element[2] != '/':
+                        newCompEntry.ds_image_fp = os.path.join(img_path + '/' + symbol_element[2])
+                    else:
+                        newCompEntry.ds_image_fp = os.path.join(img_path + symbol_element[2])
+
         if symbol_element[0] == Symbol('instances'):
             for instances in symbol_element:
                 for instance_data in instances:

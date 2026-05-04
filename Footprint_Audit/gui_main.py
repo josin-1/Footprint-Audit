@@ -32,7 +32,7 @@ class frameMain ( wx.Frame ):
 		self.m_staticText1.Wrap( -1 )
 		bSizer1.Add( self.m_staticText1, 0, wx.ALL|wx.ALIGN_CENTER_HORIZONTAL, 5 )
 		
-		self.m_KiCAD_proj_picker = wx.FilePickerCtrl( self.m_panelMain, wx.ID_ANY, wx.EmptyString, u"Select a file", u"*.*", wx.DefaultPosition, wx.DefaultSize, wx.FLP_DEFAULT_STYLE )
+		self.m_KiCAD_proj_picker = wx.FilePickerCtrl( self.m_panelMain, wx.ID_ANY, wx.EmptyString, u"Select a file", u"*.kicad_sch*", wx.DefaultPosition, wx.DefaultSize, wx.FLP_DEFAULT_STYLE )
 		bSizer1.Add( self.m_KiCAD_proj_picker, 0, wx.ALL|wx.EXPAND, 10 )
 		
 		self.m_staticText2 = wx.StaticText( self.m_panelMain, wx.ID_ANY, u"Datasheet Images:", wx.DefaultPosition, wx.DefaultSize, 0 )
