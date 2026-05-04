@@ -20,6 +20,7 @@ This is where the source code for the plugin lays.<br>
 The main entry point for the gui is: standalone_gui_start.py<br>
 gui_main.py is the generated GUI using wxFormBuilder
 and footprint_audit.py is the starting point for the KiCAD File Parser and HTML file generator<br>
+
 footprint_audit.py can also be run by it's own, but the arguments are hardcoded for now (maybe I'm adding a CLI interface in the future)
 
 ### pyInstaller_Build
@@ -27,7 +28,9 @@ I've prebuilt a one-file executable on Windows using pyInstaller.<br>
 I simply wrote the command:<br>
 <code>pyInstaller --onefile --name Footprint-Audit --add-data  "../Footprint_Audit/web/fp_audit_style.css;web" --add-data  "../Footprint_Audit/web/fp_audit.js;web" --add-data  "../Footprint_Audit/web/fp_audit.html;web" --add-data  "../Footprint_Audit/web/Konva_min.js;web" ../Footprint_Audit/standalone_gui_start.py</code><br>
 inside the pyInstaller_Build folder, to generate it.<br>
+
 It is important to use <code>--add-data</code>, because the executable will be launched inside a temp folder. The distinction between running footprint_audit.py as script or executable is also baked into generate_html.py to generate the correct path.<br>
+
 On Linux the pyInstaller command should use <code>:</code> instead of <code>;</code>, but I've not tried it yet.<br><br>
 The Program does need some pip plugins like wx, sexp, ... that can be installed using <code>pip install</code><br>
 
@@ -39,21 +42,30 @@ The usage is pretty straight-forward:<br><br>
 The first field is the path to the main schematic (named after the project itself), all hierarchical schematics will be parsed automatically.<br>
 The second field, is the path to where the datasheet images are saved.
 BE AWARE: This path will be combined with the path of the field entries in the KiCAD symbol.<br>
+
 If you'll look into the KiCAD symbols, you'll see these field entries:
-<img src='./readme_imgs/KiCAD_Fields.png'>
-Because I used a relative path inside these two fields, the folder to select in the generator needs to be the Project Root folder!<br><br>
+<img src='./readme_imgs/KiCAD_Fields.png'><br>
+because I used a relative path inside these two fields, the folder to select in the generator needs to be the Project Root folder!<br>
+It could also be used like this:
+<img src='./readme_imgs/KiCAD_Fields2.png'><br>
+, then the folder specified should be 'Models/fp_audit_pics'<br><br>
+
 The third and fourth fields in the generator, are what the image fields are called, ds_image_... is the standard setting.<br>
 The last two fields are optional and lets you exclude certain symbols and libraries.<br>
 I set the standard to exclude all Resistors and Capacitors (Symbols called R or C), and the whole 'power' library, as these symbols do not have footprints anyway!<br>
-All of those entries need to be comma-separated, whitespaces will be automatically stripped.<br><br>
-After hitting 'Generate HTML', the finished html file will be save at /FP_Audit/fp_audit.html, inside the KiCAD Project folder.<br><br>
+All of those entries need to be comma-separated, whitespaces will be automatically stripped.<br>
+
+After hitting 'Generate HTML', the finished html file will be save at /FP_Audit/fp_audit.html, inside the KiCAD Project folder.<br>
+
 <img src='./readme_imgs/html.png'><br>
 All symbols and footprints can be moved with a button press and zoomed with the scrollwheel or touchpad.<br>
 The footprint canvas also allows to make measurements, with a doubleclick:
 <img src='./readme_imgs/html_meas.png'><br>
 The measurement has a snap-in function on rectangles, lines, and circles, to allow more accurate measurements to be made!<br>
 
-<br>Thanks for reading all that ^^<br>
+
+Thanks for reading all that ^^<br>
+
 Feel free to look through the source, but be aware that this is my first bigger Python/JS project, therefore the code might be awful to look at :P (learned alot tho)
 
 ## What's next
