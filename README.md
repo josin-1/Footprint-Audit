@@ -49,7 +49,7 @@ If you'll look into the KiCAD symbols, you'll see these field entries:
 because I used a relative path inside these two fields, the folder to select in the generator needs to be the Project Root folder!<br>
 It could also be used like this:<br>
 <img src='./readme_imgs/KiCAD_Fields2.png'><br>
-, then the folder specified should be 'Models/fp_audit_pics'<br><br>
+then the folder specified should be 'Models/fp_audit_pics'<br><br>
 
 The third and fourth fields in the generator, are what the image fields are called, ds_image_... is the standard setting.<br>
 The last two fields are optional and lets you exclude certain symbols and libraries.<br>
