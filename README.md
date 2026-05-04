@@ -53,3 +53,8 @@ The measurement has a snap-in function on rectangles, lines, and circles, to all
 
 <br>Thanks for reading all that ^^<br>
 Feel free to look through the source, but be aware that this is my first bigger Python/JS project, therefore the code might be awful to look at :P (learned alot tho)
+
+## What's next
+If I've got the time, I would like to tidy up the python code a bit!<br>
+Also a big drawback for now, is that multi-symbol symbols will be drawn over each other (can be seen at the STM32 Symbol)... This needs fixing<br>
+After that interfacing the KiCAD API would be a good next big Milestone!
