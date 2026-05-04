@@ -8,14 +8,48 @@ Necessary pictures from the datasheed would need to be provided manually, and li
 The HTML generation is probably going to be inspired by the [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom/tree/master/InteractiveHtmlBom) plugin
 
 ## What's been accomplished:
-### First Parsing Tests
-Right now I've written a file parser in python, that takes the kicad_sch and kicad_pcb file, and returns a list of all Components, with the necessary data in them.<br>
-Usage is too call parse_all_schematics() from schematic_parser.py, which traverses through all hierarchical schematics and collects every component and saves them as ComponentEntry.<br>
-Afterwards the filename of the root schematic path is taken to open the .kicad_pcb file, where the footprint geometry is saved from.<br>
-At the end duplicate Components will be merged together automatically, preserving each reference value in a string list.  
+A lot actually!
 
-### TestProject_KiCAD/Footprint_Audit
-The TestProject is a basic KiCAD Project for debugging. Inside theres the project folder "Footprint_Audit", where current work is done.<br>
-Extended the Parser to output the read KiCAD data into a output.js file. Also written an HTML file, that reads the js file, iterates over all Components, and visualizes them. Currently made the image view work (image data is baked into the js file with base64 encoding), and created Konva Stages for each component, and made it visualize the Symbol (very basic tho) for now (also added basic zoom). Currently working on generating the HTML automatically, and inserting the collected data from KiCAD directly into the HTML file.<br><br>
-Update: I've done some Updates to the JS in the fp_audit_test.html. The printing of the footprint and symbol works great, and also added a prototype for the measurement tool, which is activated with a doubleclick.<br>
-As little gimmick the cursor also changes to 'move' and 'crosshair' now :P
+### TestProject_KiCAD
+The TestProject_KiCAD folder is a basic KiCAD Project for debugging.<br>
+There are some mistakes done on purpose, to check the usefulness of the tool.<br>
+in TestProject_KiCAD/FP_Audit, there is also the generated HTML file of this project (excluded R, C and the library 'power')<br> 
+
+### Footprint_Audit
+This is where the source code for the plugin lays.<br>
+The main entry point for the gui is: standalone_gui_start.py<br>
+gui_main.py is the generated GUI using wxFormBuilder
+and footprint_audit.py is the starting point for the KiCAD File Parser and HTML file generator<br>
+footprint_audit.py can also be run by it's own, but the arguments are hardcoded for now (maybe I'm adding a CLI interface in the future)
+
+### pyInstaller_Built
+I've prebuilt an one-file executable on Windows using pyInstaller.<br>
+I simply wrote the command:<br>
+<code>pyinstaller --onefile --noconsole ../Footprint_Audit/standalone_gui_start.py</code><br>
+inside this folder, to generate it.
+The Program does need some pip plugins like wx, sexp, ...<br>
+
+## How to use
+
+For now I've only implemented a standalone GUI.<br>
+The usage is pretty straight-forward:<br><br>
+<img src='./readme_imgs/gui.png'> <br><br>
+The first field is the path to the main schematic (named after the project itself), all hierarchical schematics will be parsed automatically.<br>
+The second field, is the path to where the datasheet images are saved.
+BE AWARE: This path will be combined with the path of the field entries in the KiCAD symbol.<br>
+If you'll look into the KiCAD symbols, you'll see these field entries:
+<img src='./readme_imgs/KiCAD_Fields.png'>
+Because I used a relative path inside these two fields, the folder to select in the generator needs to be the Project Root folder!<br><br>
+The third and fourth fields in the generator, are what the image fields are called, ds_image_... is the standard setting.<br>
+The last two fields are optional and lets you exclude certain symbols and libraries.<br>
+I set the standard to exclude all Resistors and Capacitors (Symbols called R or C), and the whole 'power' library, as these symbols do not have footprints anyway!<br>
+All of those entries need to be comma-separated, whitespaces will be automatically stripped.<br><br>
+After hitting 'Generate HTML', the finished html file will be save at /FP_Audit/fp_audit.html, inside the KiCAD Project folder.<br><br>
+<img src='./readme_imgs/html.png'><br>
+All symbols and footprints can be moved with a button press and zoomed with the scrollwheel or touchpad.<br>
+The footprint canvas also allows to make measurements, with a doubleclick:
+<img src='./readme_imgs/html_meas.png'><br>
+The measurement has a snap-in function on rectangles, lines, and circles, to allow more accurate measurements to be made!<br>
+
+<br>Thanks for reading all that ^^<br>
+Feel free to look through the source, but be aware that this is my first bigger Python/JS project, therefore the code might be awful to look at :P (learned alot tho)
