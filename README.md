@@ -32,6 +32,7 @@ inside the pyInstaller_Build folder, to generate it.<br>
 It is important to use <code>--add-data</code>, because the executable will be launched inside a temp folder. The distinction between running footprint_audit.py as script or executable is also baked into generate_html.py to generate the correct path.<br>
 
 On Linux the pyInstaller command should use <code>:</code> instead of <code>;</code>, but I've not tried it yet.<br><br>
+
 The Program does need some pip plugins like wx, sexp, ... that can be installed using <code>pip install</code><br>
 
 ## How to use
@@ -46,7 +47,7 @@ BE AWARE: This path will be combined with the path of the field entries in the K
 If you'll look into the KiCAD symbols, you'll see these field entries:
 <img src='./readme_imgs/KiCAD_Fields.png'><br>
 because I used a relative path inside these two fields, the folder to select in the generator needs to be the Project Root folder!<br>
-It could also be used like this:
+It could also be used like this:<br>
 <img src='./readme_imgs/KiCAD_Fields2.png'><br>
 , then the folder specified should be 'Models/fp_audit_pics'<br><br>
 
