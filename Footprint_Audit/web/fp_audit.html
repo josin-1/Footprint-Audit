@@ -2,22 +2,43 @@
 <html>
 	<header>
         <script>
-        ///COMPONENT_DATA///
+///COMPONENT_DATA///
         </script>
 
         <script>
-        ///KONVAJS///
+///KONVAJS///
         </script>
 	</header>
     <body>
         <style type="text/css">
-        ///FP_AUDIT_CSS///
+///FP_AUDIT_CSS///
         </style>
         
+        <div> 
+            <button 
+                id = 'settings-btn'
+                onclick = '{
+                    if (document.getElementById("settings-btn").style.rotate == "-180deg"){
+                        document.getElementById("settings-btn").style.rotate = "0deg";
+                        document.getElementById("settings-overlay").style.width = "0%";
+                    }
+                    else {
+                        document.getElementById("settings-btn").style.rotate = "-180deg";
+                        document.getElementById("settings-overlay").style.width = "60%";
+                    }
+                }'
+                >                   
+                <<
+            </button>
+            <div id = 'settings-overlay'>
+                Hello Settings
+            </div>
+        </div>
+
 		<div id="components"><div>
 
 		<script type="text/javascript">
-        ///FP_AUDIT_JS///
+///FP_AUDIT_JS///
 		</script>
     </body>
 
