@@ -1,5 +1,6 @@
 from sexpdata import loads, Symbol
 import os 
+import pprint
 
 from core.Component import ComponentEntry
 from core.GeometryShape import GeometryShapeType, PadType, PadGeometry, GeometryShape
@@ -28,6 +29,7 @@ def parse_symbol_geometry(elements):
 
     for lib_elements in elements:
         if lib_elements[0] == Symbol('symbol'):
+            pprint.pp(lib_elements[1])
             for geometry_elements in lib_elements:             
                 newShape = GeometryShape()
 
@@ -191,7 +193,15 @@ def parse_schematic(sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exc
     with open(sch_path) as f:
         sexpData = loads(f.read())
 
-    sub_circuits = []
+  
+    # (sheet
+    #   ...
+    #   (property "Sheetfile" "xxx.kicad_sch"
+    #       ...
+    #   )
+    #   ...
+    # )
+    sub_circuits = [sheet_el[2] for element in sexpData if element[0] == Symbol('sheet') for sheet_el in element if sheet_el[0] == Symbol('property') and sheet_el[1] == 'Sheetfile']
 
     for element in sexpData: 
         if element[0] == Symbol('lib_symbols'):            
@@ -204,11 +214,7 @@ def parse_schematic(sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exc
             if (newSymbol.getName() not in exclude_symbols and
                 newSymbol.getLib() not in exclude_libs):
                 components.append(newSymbol)
-                              
-        if element[0] == Symbol('sheet'):
-            for sheet_element in element:
-                if sheet_element[0] == Symbol('property') and sheet_element[1] == "Sheetfile":
-                    sub_circuits.append(sheet_element[2])
+  
     return sub_circuits
 
 
@@ -280,7 +286,6 @@ def parse_footprints(pcb_path):
                         if shape_data[0] == Symbol('pts'):
                             for point in shape_data:
                                 if point[0] == Symbol('xy'):
-                                    #pprint.pp(point)
                                     newShape.points.append(Vec2D(x=point[1], y= point[2]))
 
                         if shape_data[0] == Symbol('stroke'):
@@ -463,7 +468,6 @@ def parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fiel
     else:
         print(f"Error: PCB Path " + pcb_path + " does not exist!")
         raise FileNotFoundError
-        return
 
     # Combine components with the footprint geometry
     for component in components:
