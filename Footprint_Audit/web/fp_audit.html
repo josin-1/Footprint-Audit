@@ -16,26 +16,147 @@
         
         <div> 
             <button 
-                id = 'settings-btn'
-                onclick = '{
-                    if (document.getElementById("settings-btn").style.rotate == "-180deg"){
-                        document.getElementById("settings-btn").style.rotate = "0deg";
-                        document.getElementById("settings-overlay").style.width = "0%";
+                id = "settings-btn"
+                onclick = "{
+                    if (document.getElementById('settings-btn').style.rotate == '-180deg'){
+                        document.getElementById('settings-btn').style.rotate = '0deg';
+                        document.getElementById('settings-overlay').style.width = '0%';
                     }
                     else {
-                        document.getElementById("settings-btn").style.rotate = "-180deg";
-                        document.getElementById("settings-overlay").style.width = "60%";
+                        document.getElementById('settings-btn').style.rotate = '-180deg';
+                        document.getElementById('settings-overlay').style.width = '40%';
                     }
-                }'
+                }"
                 >                   
                 <<
             </button>
-            <div id = 'settings-overlay'>
-                Hello Settings
+            <div id = "settings-overlay">
+                Silkscreen
+                <br>
+                <button
+                    id = "toggle-SilkS-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_SilkS');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                        
+                    }"
+                    style = "margin:10px;padding:5px;"
+                    >
+                Toggle
+                </button>
+                <input 
+                    type = "color"
+                    id = "colorPick-SilkS"
+                    style = "margin:10px;"
+                    value = "#FFFFFF"
+                    oninput = "{
+                        fp_strokeColor_SilkS = document.querySelector('#colorPick-SilkS').value;
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_SilkS');
+                            layers.forEach(layer => {
+                                layer.getChildren().forEach(e => {
+                                    e.stroke(fp_strokeColor_SilkS);
+                                    if (e.fill() != undefined)
+                                        e.fill(fp_strokeColor_SilkS);
+                                });
+                                layer.batchDraw();
+                            });
+                        });
+                    }"
+                    />
+                <br>
+                Courtyard
+                <br>
+                <button
+                    id = "toggle-CrtYd-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_CrtYd');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                    }"
+                    style = "margin:10px;padding:5px;"
+                    >
+                Toggle
+                </button>
+                <input 
+                    type = "color"
+                    id = "colorPick-CrtYd"
+                    style = "margin:10px;"
+                    value = "#FFFFFF"
+                    oninput = "{
+                        fp_strokeColor_CrtYd = document.querySelector('#colorPick-CrtYd').value;
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_CrtYd');
+                            layers.forEach(layer => {
+                                layer.getChildren().forEach(e => {
+                                    e.stroke(fp_strokeColor_CrtYd);
+                                    if (e.fill() != undefined)
+                                        e.fill(fp_strokeColor_CrtYd);
+                                });
+                                layer.batchDraw();
+                            });
+                        });
+                    }"
+                    />
+                <br>
+                Fab
+                <br>
+                <button
+                    id = "toggle-Fab-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_Fab');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                        
+                    }"
+                    style = "margin:10px;padding:5px;"
+                    >
+                Toggle
+                </button>
+                <input 
+                    type = "color"
+                    id = "colorPick-Fab"
+                    style = "margin:10px;"
+                    value = "#FFFFFF"
+                    oninput = "{
+                        fp_strokeColor_Fab = document.querySelector('#colorPick-Fab').value;
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_Fab');
+                            layers.forEach(layer => {
+                                layer.getChildren().forEach(e => {
+                                    e.stroke(fp_strokeColor_Fab);
+                                    if (e.fill() != undefined)
+                                        e.fill(fp_strokeColor_Fab);
+                                });
+                                layer.batchDraw();
+                            });
+                        });
+                    }"
+                    />
+                <br>
+                Pads/Pins
+                <br>
+                <button
+                    id = "toggle-Pads-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_Pad');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                        
+                    }"
+                    style = "margin:10px;padding:5px;"
+                    >
+                Toggle
+                </button>
             </div>
         </div>
 
-		<div id="components"><div>
+        <div id="components"><div>
 
 		<script type="text/javascript">
 ///FP_AUDIT_JS///

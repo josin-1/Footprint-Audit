@@ -25,11 +25,18 @@ def merge_components(all_components):
 def parse_symbol_geometry(elements):
     geometry = []
 
-    key = elements[1]
+    id = elements[1]
+
+    units = {}
+    unit = 'Unit1'
 
     for lib_elements in elements:
         if lib_elements[0] == Symbol('symbol'):
-            pprint.pp(lib_elements[1])
+            if int(lib_elements[1].rsplit('_')[-2]) >= int('2'):
+                unit = 'Unit' + lib_elements[1].rsplit('_')[-2]
+            else:
+                unit = 'Unit1'
+                
             for geometry_elements in lib_elements:             
                 newShape = GeometryShape()
 
@@ -143,8 +150,14 @@ def parse_symbol_geometry(elements):
                         if item[0] == Symbol('number'):
                             newShape.number = item[1]
                     geometry.append(newShape)
+        
+            if unit in units:
+                units[unit].extend(geometry)
+            else:
+                units.update({unit : geometry})
+            geometry = []
 
-    return {key: geometry}
+    return {id: units}
  
 
 def parse_symbol(img_path, sym_img_fieldName, fp_img_fieldName, element):

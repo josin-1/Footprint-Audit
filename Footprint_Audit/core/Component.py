@@ -24,7 +24,9 @@ class ComponentEntry:
     layer: str = ""
     ds_image_sym: str = ""
     ds_image_fp: str = ""
-    symbol_geometry: list[GeometryShape] = field(default_factory=list)
+    # symbold_geometry is a list of list to save multi-unit symbols (eg. 2 symbol units in 1 symbol)
+    unit_num: int = 1
+    symbol_geometry: list[dict[GeometryShape]] = field(default_factory=dict)
     footprint_geometry: list[GeometryShape] = field(default_factory=list)
 
 
