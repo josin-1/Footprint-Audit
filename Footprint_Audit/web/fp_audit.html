@@ -2,22 +2,221 @@
 <html>
 	<header>
         <script>
-        ///COMPONENT_DATA///
+///COMPONENT_DATA///
         </script>
 
         <script>
-        ///KONVAJS///
+///KONVAJS///
         </script>
 	</header>
     <body>
         <style type="text/css">
-        ///FP_AUDIT_CSS///
+///FP_AUDIT_CSS///
         </style>
         
-		<div id="components"><div>
+                <div> 
+            <button 
+                id = "settings-btn"
+                onclick = "{
+                    if (document.getElementById('settings-btn').style.rotate == '-180deg'){
+                        document.getElementById('settings-btn').style.rotate = '0deg';
+                        document.getElementById('settings-overlay').style.width = '0%';
+                    }
+                    else {
+                        document.getElementById('settings-btn').style.rotate = '-180deg';
+                        document.getElementById('settings-overlay').style.width = '40%';
+                    }
+                }"
+            >                   
+                <<
+            </button>            
+            <div id = "settings-overlay">
+            
+                <h1 class = "settings-header1">
+                    Symbol Canvas
+                </h1>
+                <h2 class = "settings-header2">
+                    Pin Numbers
+                </h2>
+                <button
+                    id = "toggle-PinNumbers-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.getChildren().filter(e => e.name().includes('content_sym_Unit'));
+                            layers.forEach(layer => layer.find('.pinNum').forEach(e => e.visible(!e.visible())));
+                        });
+                    }"
+                    >
+                Toggle
+                </button>
+                <h2 class = "settings-header2">
+                    Pin Names
+                </h2>
+                <button
+                    id = "toggle-PinNames-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.getChildren().filter(e => e.name().includes('content_sym_Unit'));
+                            layers.forEach(layer => layer.find('.pinName').forEach(e => e.visible(!e.visible())));
+                        });
+                    }"
+                    >
+                Toggle
+                </button>
+            
+                <h1 class = "settings-header1">
+                    Footprint Canvas
+                </h1>
+                <h2 class = "settings-header2">
+                    Silkscreen
+                </h2>
+                <button
+                    id = "toggle-SilkS-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_SilkS');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                    }"
+                    >
+                Toggle
+                </button>
+                <input 
+                    type = "color"
+                    id = "colorPick-SilkS"
+                    class = "settings-color-picker"
+                    oninput = "{
+                        fp_strokeColor_SilkS = document.querySelector('#colorPick-SilkS').value;
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_SilkS');
+                            layers.forEach(layer => {
+                                layer.getChildren().forEach(e => {
+                                    e.stroke(fp_strokeColor_SilkS);
+                                    if (e.fill() != undefined)
+                                        e.fill(fp_strokeColor_SilkS);
+                                });
+                                layer.batchDraw();
+                            });
+                        });
+                    }"
+                    />
+                <br>
+                
+                <h2 class = "settings-header2">
+                    Courtyard
+                </h2>
+                <button
+                    id = "toggle-CrtYd-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_CrtYd');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                    }"
+                    >
+                Toggle
+                </button>
+                <input 
+                    type = "color"
+                    id = "colorPick-CrtYd"
+                    class = "settings-color-picker"
+                    oninput = "{
+                        fp_strokeColor_CrtYd = document.querySelector('#colorPick-CrtYd').value;
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_CrtYd');
+                            layers.forEach(layer => {
+                                layer.getChildren().forEach(e => {
+                                    e.stroke(fp_strokeColor_CrtYd);
+                                    if (e.fill() != undefined)
+                                        e.fill(fp_strokeColor_CrtYd);
+                                });
+                                layer.batchDraw();
+                            });
+                        });
+                    }"
+                    />
+                <br>
+                
+                <h2 class = "settings-header2">
+                    Fab
+                </h2>
+                <button
+                    id = "toggle-Fab-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_Fab');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                        
+                    }"
+                    >
+                Toggle
+                </button>
+                <input 
+                    type = "color"
+                    id = "colorPick-Fab"
+                    class = "settings-color-picker"
+                    oninput = "{
+                        fp_strokeColor_Fab = document.querySelector('#colorPick-Fab').value;
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_Fab');
+                            layers.forEach(layer => {
+                                layer.getChildren().forEach(e => {
+                                    e.stroke(fp_strokeColor_Fab);
+                                    if (e.fill() != undefined)
+                                        e.fill(fp_strokeColor_Fab);
+                                });
+                                layer.batchDraw();
+                            });
+                        });
+                    }"
+                    />
+                <br>
+
+                <h2 class = "settings-header2">
+                    Pads/Pins
+                </h2>
+                <button
+                    id = "toggle-Pads-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.find('.content_Pad');
+                            layers.forEach(e => e.visible(!e.visible()));
+                        });
+                        
+                    }"
+                    >
+                Toggle
+                </button>
+
+                <h2 class = "settings-header2">
+                    Snap-In Proximity
+                </h2>
+                <input
+                    type = "range"
+                    id = "snapIn_proximity_range"
+                    class = "settings-range"
+                    style = "margin: 10px;"
+                    min = "0.01"
+                    max = "0.3"
+                    step = "0.005" 
+                    oninput = "{
+                        snapPoints_proximityThreshold = document.querySelector('#snapIn_proximity_range').value;
+                    }"
+                    />
+            </div>
+        </div>
+
+        <div id="components"><div>
 
 		<script type="text/javascript">
-        ///FP_AUDIT_JS///
+///FP_AUDIT_JS///
 		</script>
     </body>
 

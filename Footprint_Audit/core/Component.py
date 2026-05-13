@@ -1,9 +1,12 @@
 import json
 import base64
+import logging
+
 from dataclasses import dataclass, field, asdict
 from .GeometryShape import GeometryShape
 from .Vec2D import Vec2D
 
+logger = logging.getLogger(__name__)
 
 class ComponentEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -24,7 +27,9 @@ class ComponentEntry:
     layer: str = ""
     ds_image_sym: str = ""
     ds_image_fp: str = ""
-    symbol_geometry: list[GeometryShape] = field(default_factory=list)
+    # symbold_geometry is a list of list to save multi-unit symbols (eg. 2 symbol units in 1 symbol)
+    unit_num: int = 1
+    symbol_geometry: list[dict[GeometryShape]] = field(default_factory=dict)
     footprint_geometry: list[GeometryShape] = field(default_factory=list)
 
 
@@ -49,7 +54,7 @@ class ComponentEntry:
                 with open(self.ds_image_sym, "rb") as f:
                     ds_image_sym_b64str = "data:image/png;base64," + base64.standard_b64encode(f.read()).decode("utf-8")
             except FileNotFoundError: 
-                print('SYM FILE NOT FOUND: ' + self.ds_image_sym)
+                logger.info('Symbol Image not found: ' + self.ds_image_sym)
                 ds_image_sym_b64str = ""
             
         if self.ds_image_fp != '':
@@ -57,7 +62,7 @@ class ComponentEntry:
                 with open(self.ds_image_fp, "rb") as f:
                     ds_image_fp_b64str = "data:image/png;base64," + base64.standard_b64encode(f.read()).decode("utf-8")
             except FileNotFoundError: 
-                print('FP FILE NOT FOUND: ' + self.ds_image_fp)
+                logger.info('Footprint Image not found: ' + self.ds_image_fp)
                 ds_image_fp_b64str = ""
         
         return json.dumps({
