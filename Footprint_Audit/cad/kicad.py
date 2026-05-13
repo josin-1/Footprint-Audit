@@ -1,18 +1,25 @@
 from sexpdata import loads, Symbol
 import os 
+import logging
 import pprint
 
 from core.Component import ComponentEntry
 from core.GeometryShape import GeometryShapeType, PadType, PadGeometry, GeometryShape
 from core.Vec2D import Vec2D
 
+logger = logging.getLogger(__name__)
+
 
 def merge_components(all_components):
     merged = {}
 
+    logger.info('Merging all Components')
     for component in all_components:
         if component in merged:
-            merged[component].refs.extend(component.refs)
+            # do not set ref which is already saved (happens for multiunit symbols!)
+            # components.refs should always be only one item, therefor [0] is used
+            if component.refs[0] not in merged[component].refs:
+                merged[component].refs.extend(component.refs)
             if merged[component].ds_image_sym == '' and component.ds_image_sym != '':
                 merged[component].ds_image_sym = component.ds_image_sym
             if merged[component].ds_image_fp == '' and component.ds_image_fp != '':
@@ -149,6 +156,11 @@ def parse_symbol_geometry(elements):
 
                         if item[0] == Symbol('number'):
                             newShape.number = item[1]
+                            for effects in item[2]:
+                                if effects[0] == Symbol('font'):
+                                    if effects[1][0] == Symbol('size'):
+                                        newShape.font_size = effects[1][1]
+
                     geometry.append(newShape)
         
             if unit in units:
@@ -159,7 +171,6 @@ def parse_symbol_geometry(elements):
 
     return {id: units}
  
-
 def parse_symbol(img_path, sym_img_fieldName, fp_img_fieldName, element):
     newCompEntry = ComponentEntry()
     for symbol_element in element:
@@ -183,6 +194,8 @@ def parse_symbol(img_path, sym_img_fieldName, fp_img_fieldName, element):
                         newCompEntry.ds_image_sym = os.path.join(img_path + '/' + symbol_element[2])
                     else:
                         newCompEntry.ds_image_sym = os.path.join(img_path + symbol_element[2])
+                else:
+                    logger.debug(f'No Symbol Image found for: {newCompEntry.getLib}:{newCompEntry.getName}')
 
             if symbol_element[1] == fp_img_fieldName:
                 if symbol_element[2] != '':
@@ -190,6 +203,8 @@ def parse_symbol(img_path, sym_img_fieldName, fp_img_fieldName, element):
                         newCompEntry.ds_image_fp = os.path.join(img_path + '/' + symbol_element[2])
                     else:
                         newCompEntry.ds_image_fp = os.path.join(img_path + symbol_element[2])
+                else:
+                    logger.debug(f'No Footprint Image found for: {newCompEntry.getLib}:{newCompEntry.getName}')
 
         if symbol_element[0] == Symbol('instances'):
             for instances in symbol_element:
@@ -199,12 +214,14 @@ def parse_symbol(img_path, sym_img_fieldName, fp_img_fieldName, element):
                             newCompEntry.refs.append(singleInstance[1])
     return newCompEntry
 
-
 def parse_schematic(sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exclude_symbols, exclude_libs, components, symbol_geometry):
-    print("Parsing Schematic at: " + sch_path)
+    logger.info(f'Parsing Schematic at: {sch_path}')
     
-    with open(sch_path) as f:
-        sexpData = loads(f.read())
+    try:
+        with open(sch_path) as f:
+            sexpData = loads(f.read())
+    except:
+        logger.exception('Error at opening schematic')
 
   
     # (sheet
@@ -227,18 +244,23 @@ def parse_schematic(sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exc
             if (newSymbol.getName() not in exclude_symbols and
                 newSymbol.getLib() not in exclude_libs):
                 components.append(newSymbol)
-  
+            logger.debug(f'Found Symbol in {os.path.basename(sch_path)}:\n{pprint.pformat(newSymbol)}')
+    
+
+    logger.debug(f'Found Sub-Circuit paths in {os.path.basename(sch_path)}:\n{sub_circuits}')
     return sub_circuits
 
-
 def parse_footprints(pcb_path):
-    print("Parsing PCB at: " + pcb_path)
+    logger.info(f'Parsing PCB-File at: {pcb_path}')
 
     layers = {}
     footprint_geometries = {}
 
-    with open(pcb_path) as f:
-        sexpData = loads(f.read())
+    try:
+        with open(pcb_path) as f:
+            sexpData = loads(f.read())
+    except:
+        logger.exception('Error at opening PCB-file')
 
     for element in sexpData: 
         geometry = []
@@ -419,11 +441,11 @@ def parse_footprints(pcb_path):
                                     newShape.chamfer.append(str(strings))
 
                     geometry.append(newShape)
-
+            
+            logger.debug(f'New Footprint for {key}:\n{pprint.pformat(geometry)}')
             footprint_geometries.update({key : geometry})
             
     return (layers, footprint_geometries)
-        
 
 def parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exclude_symbols=[], exclude_libs=[]):
     
@@ -434,9 +456,8 @@ def parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fiel
     visited = set()
 
     if not os.path.isfile(root_sch_path):
-        print(f"Error: Schematic Path " + root_sch_path + " does not exist!")
+        logger.critical(f'Schematic Path {root_sch_path} does not exist!')
         raise FileNotFoundError
-        return
 
     # All hierarchical sheets are travered through to collect symbols
     def traverse(sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exclude_symbols, exclude_libs, components, symbol_geometries):
@@ -464,7 +485,7 @@ def parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fiel
         shapes = symbol_geometries.get(geometry_key)
 
         if shapes is None:
-            print(f"Warning: no symbol geometry found for {component.lib_id} (key: {geometry_key})")
+            logger.warning(f"Warning: no symbol geometry found for {component.lib_id} (key: {geometry_key})")
         else:
             component.symbol_geometry = shapes
     
@@ -479,16 +500,17 @@ def parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fiel
     if os.path.isfile(pcb_path):
         layers, footprint_geometries = parse_footprints(pcb_path)
     else:
-        print(f"Error: PCB Path " + pcb_path + " does not exist!")
+        logger.error(f'PCB Path: {pcb_path} does not exist!')
         raise FileNotFoundError
 
+    logger.info('Combining Symbols with Footprints')
     # Combine components with the footprint geometry
     for component in components:
         shapes = footprint_geometries.get(component.footprint)
         layer = layers.get(component.footprint)
 
         if shapes is None:
-            print(f"Warning: no footprint geometry found for {component.footprint}")
+            logger.warning(f"No footprint geometry found for {component.footprint}")
         else:
             component.footprint_geometry = shapes
             component.layer = layer

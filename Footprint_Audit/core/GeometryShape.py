@@ -66,6 +66,7 @@ class GeometryShape:
     # Pin and Pad
     name: str = ""
     number: str = ""
+    font_size: float = 0.0
     position: Vec2D = field(default_factory=lambda: Vec2D(0,0))
     rotation: float = 0.0
 
@@ -106,6 +107,7 @@ class GeometryShape:
             "layer":            self.layer,
             "name":             self.name,
             "number":           self.number,
+            "font_size":        self.font_size,
             "position":         self.position,
             "rotation":         self.rotation,
             "length":           self.length,

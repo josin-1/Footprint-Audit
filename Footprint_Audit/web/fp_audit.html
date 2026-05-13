@@ -14,7 +14,7 @@
 ///FP_AUDIT_CSS///
         </style>
         
-        <div> 
+                <div> 
             <button 
                 id = "settings-btn"
                 onclick = "{
@@ -27,30 +27,67 @@
                         document.getElementById('settings-overlay').style.width = '40%';
                     }
                 }"
-                >                   
+            >                   
                 <<
-            </button>
+            </button>            
             <div id = "settings-overlay">
-                Silkscreen
-                <br>
+            
+                <h1 class = "settings-header1">
+                    Symbol Canvas
+                </h1>
+                <h2 class = "settings-header2">
+                    Pin Numbers
+                </h2>
+                <button
+                    id = "toggle-PinNumbers-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.getChildren().filter(e => e.name().includes('content_sym_Unit'));
+                            layers.forEach(layer => layer.find('.pinNum').forEach(e => e.visible(!e.visible())));
+                        });
+                    }"
+                    >
+                Toggle
+                </button>
+                <h2 class = "settings-header2">
+                    Pin Names
+                </h2>
+                <button
+                    id = "toggle-PinNames-btn"
+                    class = "settings-toggle-btn"
+                    onclick = "{
+                        KonvaStages.forEach(stage => {
+                            let layers = stage.getChildren().filter(e => e.name().includes('content_sym_Unit'));
+                            layers.forEach(layer => layer.find('.pinName').forEach(e => e.visible(!e.visible())));
+                        });
+                    }"
+                    >
+                Toggle
+                </button>
+            
+                <h1 class = "settings-header1">
+                    Footprint Canvas
+                </h1>
+                <h2 class = "settings-header2">
+                    Silkscreen
+                </h2>
                 <button
                     id = "toggle-SilkS-btn"
+                    class = "settings-toggle-btn"
                     onclick = "{
                         KonvaStages.forEach(stage => {
                             let layers = stage.find('.content_SilkS');
                             layers.forEach(e => e.visible(!e.visible()));
                         });
-                        
                     }"
-                    style = "margin:10px;padding:5px;"
                     >
                 Toggle
                 </button>
                 <input 
                     type = "color"
                     id = "colorPick-SilkS"
-                    style = "margin:10px;"
-                    value = "#FFFFFF"
+                    class = "settings-color-picker"
                     oninput = "{
                         fp_strokeColor_SilkS = document.querySelector('#colorPick-SilkS').value;
                         KonvaStages.forEach(stage => {
@@ -67,25 +104,26 @@
                     }"
                     />
                 <br>
-                Courtyard
-                <br>
+                
+                <h2 class = "settings-header2">
+                    Courtyard
+                </h2>
                 <button
                     id = "toggle-CrtYd-btn"
+                    class = "settings-toggle-btn"
                     onclick = "{
                         KonvaStages.forEach(stage => {
                             let layers = stage.find('.content_CrtYd');
                             layers.forEach(e => e.visible(!e.visible()));
                         });
                     }"
-                    style = "margin:10px;padding:5px;"
                     >
                 Toggle
                 </button>
                 <input 
                     type = "color"
                     id = "colorPick-CrtYd"
-                    style = "margin:10px;"
-                    value = "#FFFFFF"
+                    class = "settings-color-picker"
                     oninput = "{
                         fp_strokeColor_CrtYd = document.querySelector('#colorPick-CrtYd').value;
                         KonvaStages.forEach(stage => {
@@ -102,10 +140,13 @@
                     }"
                     />
                 <br>
-                Fab
-                <br>
+                
+                <h2 class = "settings-header2">
+                    Fab
+                </h2>
                 <button
                     id = "toggle-Fab-btn"
+                    class = "settings-toggle-btn"
                     onclick = "{
                         KonvaStages.forEach(stage => {
                             let layers = stage.find('.content_Fab');
@@ -113,15 +154,13 @@
                         });
                         
                     }"
-                    style = "margin:10px;padding:5px;"
                     >
                 Toggle
                 </button>
                 <input 
                     type = "color"
                     id = "colorPick-Fab"
-                    style = "margin:10px;"
-                    value = "#FFFFFF"
+                    class = "settings-color-picker"
                     oninput = "{
                         fp_strokeColor_Fab = document.querySelector('#colorPick-Fab').value;
                         KonvaStages.forEach(stage => {
@@ -138,10 +177,13 @@
                     }"
                     />
                 <br>
-                Pads/Pins
-                <br>
+
+                <h2 class = "settings-header2">
+                    Pads/Pins
+                </h2>
                 <button
                     id = "toggle-Pads-btn"
+                    class = "settings-toggle-btn"
                     onclick = "{
                         KonvaStages.forEach(stage => {
                             let layers = stage.find('.content_Pad');
@@ -149,10 +191,25 @@
                         });
                         
                     }"
-                    style = "margin:10px;padding:5px;"
                     >
                 Toggle
                 </button>
+
+                <h2 class = "settings-header2">
+                    Snap-In Proximity
+                </h2>
+                <input
+                    type = "range"
+                    id = "snapIn_proximity_range"
+                    class = "settings-range"
+                    style = "margin: 10px;"
+                    min = "0.01"
+                    max = "0.3"
+                    step = "0.005" 
+                    oninput = "{
+                        snapPoints_proximityThreshold = document.querySelector('#snapIn_proximity_range').value;
+                    }"
+                    />
             </div>
         </div>
 

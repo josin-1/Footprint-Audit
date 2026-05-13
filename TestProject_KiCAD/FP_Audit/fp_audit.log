@@ -1,0 +1,145 @@
+INFO in __main__ @ 2026-05-13 14:52:34,002 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 14:52:34,005 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:52:34,034 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:52:34,090 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:52:34,213 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:52:34,255 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:52:34,293 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 14:52:34,655 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 14:52:34,655 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 14:52:34,988 : Creating output file
+INFO in __main__ @ 2026-05-13 14:52:35,034 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 14:55:23,035 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 14:55:23,036 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:23,041 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:23,079 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:23,180 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:23,208 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:23,313 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 14:55:23,562 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 14:55:23,562 : Merging all Components
+ERROR in __main__ @ 2026-05-13 14:55:23,563 : Aborting generating FP-Audit
+Traceback (most recent call last):
+  File "c:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\Footprint_Audit\footprint_audit.py", line 56, in footprint_audit
+    comps = parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exclude_symbols, exclude_libraries)
+  File "c:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\Footprint_Audit\cad\kicad.py", line 518, in parse_all_schematics
+    return merge_components(components)
+  File "c:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\Footprint_Audit\cad\kicad.py", line 21, in merge_components
+    print(component.ref not in merged[component])
+          ^^^^^^^^^^^^^
+AttributeError: 'ComponentEntry' object has no attribute 'ref'. Did you mean: 'refs'?
+INFO in cad.kicad @ 2026-05-13 14:55:33,613 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:33,714 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:33,747 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:55:33,779 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 14:55:34,121 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 14:55:34,122 : Merging all Components
+ERROR in __main__ @ 2026-05-13 14:55:34,122 : Aborting generating FP-Audit
+Traceback (most recent call last):
+  File "c:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\Footprint_Audit\footprint_audit.py", line 56, in footprint_audit
+    comps = parse_all_schematics(root_sch_path, img_path, sym_img_fieldName, fp_img_fieldName, exclude_symbols, exclude_libraries)
+  File "c:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\Footprint_Audit\cad\kicad.py", line 518, in parse_all_schematics
+    return merge_components(components)
+  File "c:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\Footprint_Audit\cad\kicad.py", line 21, in merge_components
+    print(component.refs not in merged[component])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'ComponentEntry' is not iterable
+INFO in __main__ @ 2026-05-13 14:56:03,908 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 14:56:03,909 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:56:03,913 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:56:03,936 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:56:04,022 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:56:04,060 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:56:04,089 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 14:56:04,337 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 14:56:04,337 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 14:56:04,459 : Creating output file
+INFO in __main__ @ 2026-05-13 14:56:04,492 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 14:57:04,318 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 14:57:04,320 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:57:04,324 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:57:04,355 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:57:04,442 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:57:04,470 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:57:04,494 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 14:57:04,701 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 14:57:04,702 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 14:57:04,798 : Creating output file
+INFO in __main__ @ 2026-05-13 14:57:04,833 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 14:58:28,788 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 14:58:28,789 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:58:28,792 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:58:28,817 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:58:28,885 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:58:28,913 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 14:58:28,938 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 14:58:29,144 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 14:58:29,144 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 14:58:29,251 : Creating output file
+INFO in __main__ @ 2026-05-13 14:58:29,290 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 15:08:33,088 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 15:08:33,089 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:08:33,092 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:08:33,126 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:08:33,236 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:08:33,274 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:08:33,308 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 15:08:33,536 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 15:08:33,537 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 15:08:33,655 : Creating output file
+INFO in __main__ @ 2026-05-13 15:08:33,688 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 15:09:07,012 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 15:09:07,013 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:07,019 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:07,052 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:07,186 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:07,226 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:07,268 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 15:09:07,549 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 15:09:07,550 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 15:09:07,649 : Creating output file
+INFO in __main__ @ 2026-05-13 15:09:07,684 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 15:09:31,773 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 15:09:31,774 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:31,779 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:31,806 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:31,892 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:31,924 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:09:31,949 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 15:09:32,186 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 15:09:32,186 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 15:09:32,285 : Creating output file
+INFO in __main__ @ 2026-05-13 15:09:32,316 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 15:10:11,006 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 15:10:11,007 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:10:11,011 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:10:11,041 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:10:11,140 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:10:11,174 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:10:11,210 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 15:10:11,451 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 15:10:11,451 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 15:10:11,571 : Creating output file
+INFO in __main__ @ 2026-05-13 15:10:11,621 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 15:12:02,062 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 15:12:02,063 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:02,069 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:02,103 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:02,271 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:02,359 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:02,395 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 15:12:02,783 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 15:12:02,784 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 15:12:02,954 : Creating output file
+INFO in __main__ @ 2026-05-13 15:12:03,022 : Finished FP-Audit!
+INFO in __main__ @ 2026-05-13 15:12:50,161 : Start FP-Audit!
+INFO in cad.kicad @ 2026-05-13 15:12:50,162 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:50,167 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\display.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:50,245 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\microcontroller.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:50,333 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\power_supply.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:50,365 : Parsing Schematic at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\SD-Card.kicad_sch
+INFO in cad.kicad @ 2026-05-13 15:12:50,394 : Parsing PCB-File at: C:\Users\johra\OneDrive\KiCAD-Footprint_Audit\Footprint-Audit\TestProject_KiCAD\TestProj.kicad_pcb
+INFO in cad.kicad @ 2026-05-13 15:12:50,624 : Combining Symbols with Footprints
+INFO in cad.kicad @ 2026-05-13 15:12:50,625 : Merging all Components
+INFO in web.generate_html @ 2026-05-13 15:12:50,809 : Creating output file
+INFO in __main__ @ 2026-05-13 15:12:50,836 : Finished FP-Audit!
